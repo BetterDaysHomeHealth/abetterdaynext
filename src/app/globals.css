@@ -178,19 +178,36 @@ img { max-width: 100%; display: block; }
 
 .nav-logo {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+  text-decoration: none;
+  gap: 2px;
+  transition: opacity .2s;
+}
+.nav-logo:hover { opacity: .8; }
+
+.nav-wordmark {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -.02em;
 }
 
-.nav-logo-img {
-  height: 72px;
-  width: auto;
-  object-fit: contain;
-  border-radius: 16px;
-  transition: opacity .25s ease, transform .25s ease;
+.nav-wordmark-sub {
+  font-size: .6rem;
+  font-weight: 700;
+  color: rgba(255,255,255,.6);
+  letter-spacing: .18em;
 }
-.nav-logo-img:hover {
-  opacity: .88;
-  transform: scale(1.03);
+
+.hero-logo {
+  display: block;
+  width: 260px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 28px;
+  filter: drop-shadow(0 8px 32px rgba(0,0,0,.35));
 }
 
 .nav-logo-img:hover { opacity: .85; }

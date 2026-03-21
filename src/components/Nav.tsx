@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -20,14 +19,8 @@ export function Nav() {
     <nav id="nav" className={scrolled ? "scrolled" : ""}>
       <div className="container nav-inner">
         <Link href="/" className="nav-logo">
-          <Image
-            src="/logo.jpg"
-            alt="Better Days Home Health"
-            width={185}
-            height={72}
-            className="nav-logo-img"
-            priority
-          />
+          <span className="nav-wordmark">Better Days</span>
+          <span className="nav-wordmark-sub">HOME HEALTH</span>
         </Link>
 
         <ul className={`nav-links${menuOpen ? " open" : ""}`} id="navLinks">

@@ -28,6 +28,15 @@ export default function HomePage() {
 
         <div className="container hero-inner">
           <div>
+            <Image
+              src="/logo.jpg"
+              alt="Better Days Home Health"
+              width={260}
+              height={100}
+              className="hero-logo"
+              priority
+            />
+
             <div className="hero-tag">
               <span className="hero-tag-dot" />
               <span className="hero-tag-text">Now accepting new patients &mdash; Hampton Roads, VA</span>
