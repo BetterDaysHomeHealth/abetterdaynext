@@ -1,0 +1,46 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deployment
+        run: |
+          RESPONSE=$(curl -s -X POST "https://api.vercel.com/v13/deployments?teamId=team_fmIydkwQWUwL7inQJ7XeaCZF" \
+            -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "name": "abetterdaynext-v2",
+              "gitSource": {
+                "type": "github",
+                "repoId": "1187262452",
+                "ref": "main",
+                "sha": "${{ github.sha }}"
+              },
+              "target": "production"
+            }')
+          echo "$RESPONSE"
+          DEP_ID=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))")
+          echo "Deployment ID: $DEP_ID"
+
+          # Wait for deployment to finish
+          for i in $(seq 1 30); do
+            sleep 10
+            STATE=$(curl -s "https://api.vercel.com/v6/deployments?projectId=prj_rFcMAzJDILQZO7WMTbWoWakcrn0Z&teamId=team_fmIydkwQWUwL7inQJ7XeaCZF&limit=1" \
+              -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" | \
+              python3 -c "import sys,json; d=json.load(sys.stdin); print(d['deployments'][0].get('state',''))")
+            echo "State: $STATE"
+            if [ "$STATE" = "READY" ]; then
+              echo "Deployment successful"
+              exit 0
+            elif [ "$STATE" = "ERROR" ]; then
+              echo "Deployment failed"
+              exit 1
+            fi
+          done
+          echo "Deployment timed out"
+          exit 1
