@@ -167,7 +167,7 @@ export default function HomePage() {
                   src="/jessica-owner.avif"
                   alt="Better Days Home Health team member caring for a patient"
                   fill
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
                 />
               </div>
               <div className="about-license-card">
