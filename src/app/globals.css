@@ -1866,49 +1866,6 @@ footer {
 .ins-note a:hover { text-decoration: underline; }
 
 /* ── INSURANCE PAGE FAQ (button-based) ────────────────────── */
-.faq-item.open {
-  border-color: var(--teal);
-  box-shadow: 0 4px 20px rgba(58,140,132,.1);
-}
-
-.faq-question.btn-faq {
-  width: 100%;
-  text-align: left;
-  background: none;
-  border: none;
-  font-family: inherit;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 24px;
-  font-weight: 700;
-  font-size: .97rem;
-  color: var(--navy);
-  gap: 16px;
-  user-select: none;
-}
-
-.faq-chevron {
-  font-size: 1.2rem;
-  color: var(--teal);
-  flex-shrink: 0;
-  transition: transform .25s ease;
-  line-height: 1;
-}
-
-.faq-item.open .faq-chevron { transform: rotate(180deg); }
-
-.faq-item .faq-answer {
-  display: none;
-  padding: 4px 24px 22px;
-  color: var(--muted);
-  font-size: .92rem;
-  line-height: 1.8;
-  border-top: 1.5px solid var(--border);
-}
-
-.faq-item.open .faq-answer { display: block; }
 
 /* ── CAREERS PAGE ─────────────────────────────────────────── */
 .perks-grid {
