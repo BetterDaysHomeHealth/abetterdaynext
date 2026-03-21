@@ -472,7 +472,7 @@ img { max-width: 100%; display: block; }
 
 .marquee-track {
   display: inline-flex;
-  animation: marquee 30s linear infinite;
+  animation: marquee 16s linear infinite;
 }
 
 .marquee-track span {

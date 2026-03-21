@@ -237,7 +237,16 @@ export default function HomePage() {
         <div className="hhh-glow-orb hhh-orb-2" />
         <div className="container hhh-promo-inner reveal">
           <div className="hhh-promo-text">
-            <Image src="/hhh-logo-dark.svg" alt="Home Health Hub" width={220} height={58} style={{ marginBottom: "20px" }} />
+            <div style={{ marginBottom: "20px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "11px", marginBottom: "12px" }}>
+                <div style={{ width: "44px", height: "44px", background: "linear-gradient(135deg, #5b7bf5 0%, #3a5ce8 100%)", borderRadius: "11px", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: "1.05rem", color: "#fff", letterSpacing: "-0.5px", flexShrink: 0 }}>HH</div>
+                <span style={{ color: "#fff", fontWeight: 700, fontSize: "1.2rem", letterSpacing: "-0.3px" }}>HomeHealthHub</span>
+              </div>
+              <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", border: "1px solid rgba(255,255,255,.2)", borderRadius: "50px", padding: "6px 16px", fontSize: ".82rem", color: "rgba(255,255,255,.85)" }}>
+                <span style={{ width: "7px", height: "7px", borderRadius: "50%", background: "#4ade80", flexShrink: 0, display: "inline-block" }} />
+                SMS-Powered Staffing for Home Health Agencies
+              </div>
+            </div>
             <span className="hhh-eyebrow">For Home Health Agencies</span>
             <h2 className="hhh-headline">The Technology<br />Behind Our Speed</h2>
             <p className="hhh-lead">
