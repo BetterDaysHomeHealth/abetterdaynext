@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
-import Script from "next/script";
+import { ScrollReveal } from "@/components/ScrollReveal";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -86,18 +86,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>{children}</body>
-      <Script id="scroll-reveal" strategy="afterInteractive">{`
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-      `}</Script>
+      <body>
+        <ScrollReveal />
+        {children}
+      </body>
     </html>
   );
 }
