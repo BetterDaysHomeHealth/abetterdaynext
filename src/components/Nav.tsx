@@ -23,8 +23,8 @@ export function Nav() {
           <Image
             src="/logo.jpg"
             alt="Better Days Home Health"
-            width={200}
-            height={70}
+            width={160}
+            height={56}
             className="nav-logo-img"
             priority
           />
