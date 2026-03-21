@@ -50,8 +50,8 @@ export default function AboutPage() {
             <div className="story-visual reveal reveal-delay-2">
               <div className="story-photo-frame">
                 <Image
-                  src="/about-photo.jpg"
-                  alt="Better Days Home Health caregiver showing care and compassion"
+                  src="/aide-smiling-at-client.avif"
+                  alt="Better Days Home Health caregiver with a patient"
                   fill
                   style={{ objectFit: "cover" }}
                 />
