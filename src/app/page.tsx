@@ -163,12 +163,12 @@ export default function HomePage() {
 
             <div className="about-right reveal reveal-delay-2">
               <div className="about-photo-frame">
-                <div className="about-photo-inner">
-                  <div className="photo-placeholder-icon">&#129657;</div>
-                  <p className="photo-placeholder-text">
-                    Compassionate home health care<br />throughout Hampton Roads, Virginia
-                  </p>
-                </div>
+                <Image
+                  src="/jessica-owner.avif"
+                  alt="Better Days Home Health team member caring for a patient"
+                  fill
+                  style={{ objectFit: "cover" }}
+                />
               </div>
               <div className="about-license-card">
                 <div className="about-license-icon">&#127881;</div>
