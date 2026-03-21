@@ -50,10 +50,10 @@ export default function AboutPage() {
             <div className="story-visual reveal reveal-delay-2">
               <div className="story-photo-frame">
                 <Image
-                  src="/aide-smiling-at-client.avif"
-                  alt="Better Days Home Health caregiver with a patient"
+                  src="/jessica-owner.avif"
+                  alt="Jessica, founder of Better Days Home Health"
                   fill
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
                 />
               </div>
               <div className="about-license-card">

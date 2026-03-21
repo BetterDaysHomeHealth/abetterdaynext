@@ -164,10 +164,10 @@ export default function HomePage() {
             <div className="about-right reveal reveal-delay-2">
               <div className="about-photo-frame">
                 <Image
-                  src="/jessica-owner.avif"
-                  alt="Better Days Home Health team member caring for a patient"
+                  src="/aide-smiling-at-client.avif"
+                  alt="Better Days Home Health caregiver with a patient"
                   fill
-                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                  style={{ objectFit: "cover", objectPosition: "center" }}
                 />
               </div>
               <div className="about-license-card">
