@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
@@ -47,27 +46,6 @@ export default function AboutPage() {
               <Link href="/contact" className="btn btn-primary">Get in Touch</Link>
             </div>
 
-            <div className="story-visual reveal reveal-delay-2">
-              <div className="story-photo-frame">
-                <Image
-                  src="/jessica-owner.avif"
-                  alt="Jessica, founder of Better Days Home Health"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center top" }}
-                />
-              </div>
-              <div className="about-license-card">
-                <div className="about-license-icon">🎉</div>
-                <div>
-                  <h4>VDH Licensed</h4>
-                  <p>Virginia Dept. of Health</p>
-                </div>
-              </div>
-              <div className="about-stat-card">
-                <div className="about-stat-num">8</div>
-                <div className="about-stat-label">Cities Served in Hampton Roads</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

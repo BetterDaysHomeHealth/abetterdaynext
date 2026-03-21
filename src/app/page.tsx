@@ -161,27 +161,6 @@ export default function HomePage() {
               <Link href="/about" className="btn btn-outline-dark">Our Full Story &rarr;</Link>
             </div>
 
-            <div className="about-right reveal reveal-delay-2">
-              <div className="about-photo-frame">
-                <Image
-                  src="/aide-smiling-at-client.avif"
-                  alt="Better Days Home Health caregiver with a patient"
-                  fill
-                  style={{ objectFit: "cover", objectPosition: "center" }}
-                />
-              </div>
-              <div className="about-license-card">
-                <div className="about-license-icon">&#127881;</div>
-                <div>
-                  <h4>VDH Licensed</h4>
-                  <p>Virginia Dept. of Health</p>
-                </div>
-              </div>
-              <div className="about-stat-card">
-                <div className="about-stat-num">8</div>
-                <div className="about-stat-label">Cities Served in Hampton Roads</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

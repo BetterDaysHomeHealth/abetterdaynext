@@ -502,9 +502,9 @@ img { max-width: 100%; display: block; }
 /* ── ABOUT ─────────────────────────────────────────────────── */
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
+  grid-template-columns: 1fr;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .about-left p {
@@ -1433,9 +1433,9 @@ footer {
 /* ── STORY GRID (ABOUT) ────────────────────────────────────── */
 .story-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
+  grid-template-columns: 1fr;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .story-text p { color: var(--muted); margin-bottom: 16px; }
