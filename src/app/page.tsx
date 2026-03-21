@@ -237,7 +237,7 @@ export default function HomePage() {
         <div className="hhh-glow-orb hhh-orb-2" />
         <div className="container hhh-promo-inner reveal">
           <div className="hhh-promo-text">
-            <Image src="/hhh-logo.png" alt="Home Health Hub" width={130} height={52} style={{ marginBottom: "20px" }} />
+            <Image src="/hhh-logo-dark.svg" alt="Home Health Hub" width={220} height={58} style={{ marginBottom: "20px" }} />
             <span className="hhh-eyebrow">For Home Health Agencies</span>
             <h2 className="hhh-headline">The Technology<br />Behind Our Speed</h2>
             <p className="hhh-lead">
@@ -287,7 +287,7 @@ export default function HomePage() {
             </div>
 
             <div className="hhh-stat-strip">
-              <div className="hhh-stat-pill"><div className="hhh-sp-num">&lt;48h</div><div className="hhh-sp-lbl">avg. fill time</div></div>
+              <div className="hhh-stat-pill"><div className="hhh-sp-num">&lt;24h</div><div className="hhh-sp-lbl">avg. fill time</div></div>
               <div className="hhh-stat-pill"><div className="hhh-sp-num">100%</div><div className="hhh-sp-lbl">digital workflow</div></div>
               <div className="hhh-stat-pill"><div className="hhh-sp-num">&#128241;</div><div className="hhh-sp-lbl">instant SMS</div></div>
             </div>
