@@ -247,8 +247,7 @@ export default function HomePage() {
                 SMS-Powered Staffing for Home Health Agencies
               </div>
             </div>
-            <span className="hhh-eyebrow">For Home Health Agencies</span>
-            <h2 className="hhh-headline">The Technology<br />Behind Our Speed</h2>
+<h2 className="hhh-headline">The Technology<br />Behind Our Speed</h2>
             <p className="hhh-lead">
               We staff cases faster because we built the platform to do it.{" "}
               <strong>Home Health Hub</strong> is the care coordination engine powering Better Days &mdash;
