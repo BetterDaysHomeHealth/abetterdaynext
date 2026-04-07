@@ -102,6 +102,30 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* FOUNDING STORY */}
+      <section className="section" style={{ background: "var(--cream-dark)" }}>
+        <div className="container">
+          <div style={{ maxWidth: "780px", margin: "0 auto" }} className="reveal">
+            <span className="eyebrow">Our Founding Story</span>
+            <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "28px" }}>
+              How Better Days Began
+            </h2>
+            <p style={{ color: "var(--muted)", fontSize: "1.05rem", lineHeight: "1.85", marginBottom: "22px" }}>
+              Better Days Home Health was born out of a personal mission to bring compassionate, dignified care directly into people&apos;s homes. Jessica, the owner, graduated from Radford University in 2009 with a degree in Marketing and Management. She didn&apos;t come from a healthcare background &mdash; but she came with determination.
+            </p>
+            <p style={{ color: "var(--muted)", fontSize: "1.05rem", lineHeight: "1.85", marginBottom: "22px" }}>
+              The idea took shape during a conversation with her neighbor, who shared the challenges of finding quality home care for a loved one. That conversation made something clear: there was a significant gap in home health services that truly respected the individual needs and dignity of each patient. With her neighbor&apos;s encouragement, the concept of Better Days Home Health began to take shape.
+            </p>
+            <p style={{ color: "var(--muted)", fontSize: "1.05rem", lineHeight: "1.85", marginBottom: "22px" }}>
+              Jessica knew she needed a clinical partner who understood home health from the inside. That&apos;s when she met Nurse Ashley &mdash; a skilled, experienced nurse right here in Hampton Roads who had seen firsthand the profound impact that quality home care could have on patients&apos; lives. Ashley brought the clinical expertise. Jessica brought the business, marketing, and community foundation. Together, they built Better Days Home Health.
+            </p>
+            <p style={{ color: "var(--muted)", fontSize: "1.05rem", lineHeight: "1.85" }}>
+              That partnership is still at the heart of everything we do. Care that is not just about treatment &mdash; but about understanding and valuing every patient as a person.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* OUR TEAM */}
       <section className="section">
         <div className="container">
