@@ -34,14 +34,14 @@ export default function AboutPage() {
               </h2>
               <p>Better Days Home Health was founded with a clear and deeply personal purpose: to make expert home health care accessible, compassionate, and dignified for every family in Hampton Roads. We saw firsthand how challenging it can be to navigate the healthcare system while also caring for a loved one at home, and we knew there was a better way.</p>
               <p>From our very first patient, we have operated with the conviction that clinical excellence and genuine human connection are not in conflict &mdash; they are inseparable. Our licensed nurses, therapists, and certified aides are selected not only for their credentials, but for their character.</p>
-              <p>Today, we serve families across Virginia, and our mission has never wavered: to bring better days, one patient at a time.</p>
+              <p>Today, we serve families across Hampton Roads and beyond, and our mission has never wavered: to bring better days, one patient at a time.</p>
               <div className="about-checklist" style={{ marginTop: "32px", marginBottom: "36px" }}>
                 <div className="check-item"><span className="check-icon">✓</span> VDH Licensed</div>
                 <div className="check-item"><span className="check-icon">✓</span> Medicaid Accepted</div>
                 <div className="check-item"><span className="check-icon">✓</span> Sentara Network</div>
                 <div className="check-item"><span className="check-icon">✓</span> All Therapies In-Home</div>
                 <div className="check-item"><span className="check-icon">✓</span> Skilled &amp; Personal Care</div>
-                <div className="check-item"><span className="check-icon">✓</span> Statewide Coverage</div>
+                <div className="check-item"><span className="check-icon">✓</span> Hampton Roads &amp; Beyond</div>
               </div>
               <Link href="/contact" className="btn btn-primary">Get in Touch</Link>
             </div>
@@ -96,7 +96,7 @@ export default function AboutPage() {
               We believed that the home should be the most healing place possible, not a source of anxiety. So we built an agency that handles the complexity &mdash; insurance verification, care coordination, skilled clinical visits, personal care scheduling &mdash; so families can focus on what matters most.
             </p>
             <p style={{ color: "var(--muted)", fontSize: "1.05rem", lineHeight: "1.85" }}>
-              Every member of our team is here because they believe in that mission. From our registered nurses and therapists to our personal care aides, we share a commitment to making each day better for the patients and families we serve across Virginia — based in Hampton Roads and available throughout the state.
+              Every member of our team is here because they believe in that mission. From our registered nurses and therapists to our personal care aides, we share a commitment to making each day better for the patients and families we serve across Hampton Roads and surrounding Virginia communities.
             </p>
           </div>
         </div>

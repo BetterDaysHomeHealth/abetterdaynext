@@ -104,10 +104,10 @@ export default function HomePage() {
             <div className="hero-card">
               <div className="hero-card-icon teal">&#127968;</div>
               <div>
-                <h4>Serving Virginia</h4>
-                <p>Based in Hampton Roads, available statewide</p>
+                <h4>Hampton Roads & Beyond</h4>
+                <p>Proudly serving Hampton Roads and surrounding areas</p>
               </div>
-              <span className="hero-card-badge">VA-Wide</span>
+              <span className="hero-card-badge">Local Care</span>
             </div>
           </div>
         </div>
@@ -349,8 +349,8 @@ export default function HomePage() {
             </div>
             <div className="why-card reveal reveal-delay-2">
               <div className="why-num">05</div>
-              <h4>Serving All of Virginia</h4>
-              <p>Based in Hampton Roads and available throughout the Commonwealth &mdash; we come to you wherever you call home.</p>
+              <h4>Rooted in Hampton Roads</h4>
+              <p>Virginia Beach, Norfolk, Chesapeake, Portsmouth, Hampton, Newport News, Suffolk, and Isle of Wight &mdash; we come to you wherever you call home.</p>
             </div>
             <div className="why-card reveal reveal-delay-3">
               <div className="why-num">06</div>
