@@ -248,7 +248,7 @@ export default function HomePage() {
           <div className="hhh-promo-text">
             <div style={{ marginBottom: "20px" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "11px", marginBottom: "12px" }}>
-                <div style={{ width: "44px", height: "44px", background: "linear-gradient(135deg, #5b7bf5 0%, #3a5ce8 100%)", borderRadius: "11px", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: "1.05rem", color: "#fff", letterSpacing: "-0.5px", flexShrink: 0 }}>HH</div>
+                <img src="/hhh-logo.png" alt="HomeHealthHub" style={{ width: "44px", height: "44px", borderRadius: "50%", flexShrink: 0 }} />
                 <span style={{ color: "#fff", fontWeight: 700, fontSize: "1.2rem", letterSpacing: "-0.3px" }}>HomeHealthHub</span>
               </div>
               <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", border: "1px solid rgba(255,255,255,.2)", borderRadius: "50px", padding: "6px 16px", fontSize: ".82rem", color: "rgba(255,255,255,.85)" }}>
