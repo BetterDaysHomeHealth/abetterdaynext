@@ -123,8 +123,8 @@ export default function ContactPage() {
             </div>
             <div>
               <div style={{ fontSize: "2rem", marginBottom: "10px" }}>📍</div>
-              <h4 style={{ color: "var(--white)", fontSize: "1rem", marginBottom: "6px" }}>8 Cities in Hampton Roads</h4>
-              <p style={{ color: "rgba(255,255,255,.55)", fontSize: ".86rem" }}>Virginia Beach, Norfolk, Chesapeake, Portsmouth, Hampton, Newport News, Suffolk, Isle of Wight.</p>
+              <h4 style={{ color: "var(--white)", fontSize: "1rem", marginBottom: "6px" }}>Serving Virginia</h4>
+              <p style={{ color: "rgba(255,255,255,.55)", fontSize: ".86rem" }}>Based in Hampton Roads. Available throughout the Commonwealth of Virginia.</p>
             </div>
             <div>
               <div style={{ fontSize: "2rem", marginBottom: "10px" }}>🕐</div>
