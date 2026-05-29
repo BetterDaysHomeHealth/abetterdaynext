@@ -4,83 +4,83 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Conditions We Treat | Better Days Home Health | Hampton Roads, VA",
+  title: "Who We Help | Better Days Home Health | Hampton Roads, VA",
   description:
-    "Better Days Home Health provides in-home care for patients recovering from surgery, managing chronic illness, or living with neurological conditions across Hampton Roads, VA.",
+    "Better Days Home Health provides certified personal care aides for seniors, patients with chronic conditions, dementia, Parkinson's, and anyone who needs daily living support at home in Hampton Roads, VA.",
 };
 
 const conditions = [
   {
-    icon: "🦴",
-    title: "Post-Surgical Recovery",
-    desc: "Patients recovering from joint replacement, cardiac surgery, spinal procedures, or other major surgeries often need skilled nursing and therapy at home to recover safely and prevent complications.",
-    tags: ["Skilled Nursing", "Physical Therapy", "Occupational Therapy"],
-  },
-  {
-    icon: "❤️",
-    title: "Congestive Heart Failure (CHF)",
-    desc: "CHF patients require close monitoring of fluid status, weight, and symptoms after hospitalization. Our RNs provide assessments and early intervention to prevent readmissions.",
-    tags: ["Skilled Nursing (RN)", "Medication Management"],
-  },
-  {
-    icon: "🫁",
-    title: "COPD & Respiratory Disease",
-    desc: "Patients with COPD, asthma, or other respiratory conditions benefit from skilled nursing assessment, medication education, and breathing management strategies to maintain function at home.",
-    tags: ["Skilled Nursing (RN)", "Patient Education"],
-  },
-  {
-    icon: "💉",
-    title: "Diabetes Management",
-    desc: "Managing insulin, monitoring blood glucose, and preventing diabetic complications requires skilled nursing support — especially after hospitalization or a change in treatment plan.",
-    tags: ["Skilled Nursing", "Medication Management", "Patient Education"],
-  },
-  {
-    icon: "🧠",
-    title: "Stroke & Neurological Recovery",
-    desc: "Stroke survivors often need physical and occupational therapy to regain mobility and independence in daily activities. We bring skilled rehabilitation directly to the home.",
-    tags: ["Physical Therapy", "Occupational Therapy", "Skilled Nursing"],
-  },
-  {
-    icon: "🫀",
-    title: "Wound Care",
-    desc: "Complex or non-healing wounds — surgical incisions, pressure injuries, diabetic ulcers — require regular skilled nursing assessment and treatment to prevent infection and promote closure.",
-    tags: ["Skilled Nursing (RN)", "LPN Services"],
+    icon: "👴",
+    title: "Aging in Place",
+    desc: "Seniors who want to remain safely and independently in their own home benefit from personal care aides who assist with daily routines, provide companionship, and help reduce fall risks.",
+    tags: ["Personal Care Aide", "Companionship", "Light Housekeeping"],
   },
   {
     icon: "🐘",
-    title: "Dementia & Alzheimer's Support",
-    desc: "Patients with cognitive decline benefit from structured personal care, medication reminders, and companionship that preserves dignity and provides family caregiver relief.",
+    title: "Dementia & Alzheimer's",
+    desc: "Patients with cognitive decline benefit from structured personal care, consistent routines, medication reminders, and compassionate companionship that preserves dignity and provides family caregiver relief.",
     tags: ["Personal Care Aide", "Companionship", "Medication Reminders"],
-  },
-  {
-    icon: "🏃",
-    title: "Fall Prevention & Recovery",
-    desc: "A fall can significantly impact a patient's independence and confidence. Our physical therapists conduct home safety assessments and build strength and balance programs tailored to each patient.",
-    tags: ["Physical Therapy", "Occupational Therapy", "Home Safety Assessment"],
-  },
-  {
-    icon: "💊",
-    title: "IV Therapy & Infusion",
-    desc: "Patients requiring IV antibiotics, hydration therapy, or other infusion treatments can receive safe, clinical-grade care at home rather than spending days in a facility.",
-    tags: ["Skilled Nursing (RN)", "IV Therapy"],
-  },
-  {
-    icon: "💌",
-    title: "Post-Cardiac Event",
-    desc: "After a heart attack, cardiac catheterization, or bypass surgery, patients need close monitoring of vital signs, activity tolerance, and medication compliance as they transition home.",
-    tags: ["Skilled Nursing (RN)", "Medication Management"],
-  },
-  {
-    icon: "🦴",
-    title: "Orthopedic & Musculoskeletal",
-    desc: "Arthritis, fractures, back surgery, and other musculoskeletal conditions often require skilled PT and OT to restore strength, range of motion, and functional independence at home.",
-    tags: ["Physical Therapy", "Occupational Therapy"],
   },
   {
     icon: "🧬",
     title: "Parkinson's Disease & MS",
-    desc: "Patients with Parkinson's or multiple sclerosis benefit from ongoing PT and OT to maintain mobility, manage symptoms, and adapt their home environment for safety and independence.",
-    tags: ["Physical Therapy", "Occupational Therapy", "Personal Care"],
+    desc: "Patients with Parkinson's or multiple sclerosis need daily personal care support — bathing, dressing, mobility assistance — from aides who understand their unique challenges and pace their care accordingly.",
+    tags: ["Personal Care Aide", "CNA", "Companionship"],
+  },
+  {
+    icon: "🏥",
+    title: "Post-Hospital Recovery",
+    desc: "After a hospital discharge, patients often need daily support with bathing, meal prep, and light housekeeping while they regain strength. Our aides provide that bridge care at home.",
+    tags: ["Personal Care Aide", "Meal Preparation", "Light Housekeeping"],
+  },
+  {
+    icon: "❤️",
+    title: "Congestive Heart Failure (CHF)",
+    desc: "Patients managing CHF benefit from daily personal care support, assistance with low-sodium meal preparation, and consistent companionship that helps them stay active and engaged at home.",
+    tags: ["Personal Care Aide", "Meal Preparation", "Companionship"],
+  },
+  {
+    icon: "🫁",
+    title: "COPD & Respiratory Disease",
+    desc: "Patients with COPD or other respiratory conditions benefit from personal care aides who assist with daily activities that have become difficult, reducing exertion and supporting quality of life at home.",
+    tags: ["Personal Care Aide", "Light Housekeeping", "Meal Preparation"],
+  },
+  {
+    icon: "💉",
+    title: "Diabetes Management Support",
+    desc: "Our aides support diabetic patients with healthy meal preparation, medication reminders, and daily living assistance — helping them maintain routines that support their treatment plan.",
+    tags: ["Meal Preparation", "Medication Reminders", "Personal Care Aide"],
+  },
+  {
+    icon: "🤕",
+    title: "Injury & Fall Recovery",
+    desc: "Patients recovering from a fall or injury benefit from daily personal care support while rebuilding confidence and strength. Our aides help with bathing, dressing, and safe mobility at home.",
+    tags: ["Personal Care Aide", "CNA", "Companionship"],
+  },
+  {
+    icon: "🦠",
+    title: "Cancer & Oncology Support",
+    desc: "Cancer patients undergoing treatment or in recovery often need help with daily activities due to fatigue. Our aides provide compassionate personal care and meaningful companionship during a difficult time.",
+    tags: ["Personal Care Aide", "Companionship", "Meal Preparation"],
+  },
+  {
+    icon: "🧠",
+    title: "Stroke Recovery",
+    desc: "Stroke survivors often need personal care aide support — bathing, dressing, grooming — while they rebuild daily independence. Our aides are patient, consistent, and trained to support neurological recovery.",
+    tags: ["Personal Care Aide", "CNA", "Companionship"],
+  },
+  {
+    icon: "👪",
+    title: "Family Caregiver Relief",
+    desc: "Family caregivers need rest too. Our aides provide respite care so family members can step away with confidence, knowing their loved one is in compassionate, capable hands.",
+    tags: ["Respite Care", "Personal Care Aide", "Companionship"],
+  },
+  {
+    icon: "💌",
+    title: "Social Isolation & Loneliness",
+    desc: "Isolation and loneliness have real health consequences for older adults. Our companionship services provide meaningful social engagement, conversation, and connection that improves well-being.",
+    tags: ["Companionship", "Personal Care Aide", "Appointment Accompaniment"],
   },
 ];
 
@@ -92,9 +92,9 @@ export default function ConditionsPage() {
       {/* PAGE HERO */}
       <section className="page-hero no-arch">
         <div className="container page-hero-content">
-          <span className="page-hero-badge">🔬 &nbsp; Conditions &amp; Diagnoses We Serve</span>
-          <h1>Conditions We Treat</h1>
-          <p>From post-surgical recovery to chronic disease management &mdash; our clinical team is experienced across a wide range of diagnoses that benefit from skilled home health care.</p>
+          <span className="page-hero-badge">🧑 &nbsp; Who We Help</span>
+          <h1>Who We Help</h1>
+          <p>From aging in place to recovering after illness &mdash; our certified personal care aides support patients and families across Hampton Roads wherever they are in life.</p>
         </div>
       </section>
 
@@ -102,18 +102,18 @@ export default function ConditionsPage() {
       <section className="section" style={{ background: "var(--cream-dark)" }}>
         <div className="container">
           <div className="reveal" style={{ textAlign: "center", marginBottom: "52px" }}>
-            <span className="eyebrow">In-Home Clinical Care</span>
+            <span className="eyebrow">Personal Care at Home</span>
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}>
-              When Home Is the Best Place to Heal
+              When Home Is the Right Place to Be
             </h2>
-            <p style={{ color: "var(--muted)", maxWidth: "640px", margin: "0 auto" }}>Home health care isn&rsquo;t just for the elderly. Our licensed nurses and therapists treat patients of all ages recovering from surgery, managing complex chronic conditions, or regaining independence after a neurological event. If a physician orders it, we deliver it at home.</p>
+            <p style={{ color: "var(--muted)", maxWidth: "640px", margin: "0 auto" }}>Personal care isn&rsquo;t just for the elderly. Our certified aides support patients of all ages who need help with daily living activities — so they can remain safely and comfortably at home rather than in a facility.</p>
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "20px" }} className="reveal">
             {[
-              { icon: "🏥", title: "Skilled Nursing Care", sub: "RN & LPN visits at home" },
-              { icon: "🧘", title: "Rehabilitation Therapy", sub: "PT & OT in your home" },
-              { icon: "💊", title: "Ongoing Disease Management", sub: "Chronic condition monitoring" },
+              { icon: "🧑", title: "Personal Care Aides", sub: "PCA, CNA & HHA services at home" },
+              { icon: "👪", title: "Family Relief", sub: "Respite care when caregivers need a break" },
+              { icon: "💌", title: "Companionship", sub: "Meaningful connection and daily engagement" },
             ].map((item) => (
               <div key={item.title} style={{ background: "var(--white)", border: "1.5px solid var(--border)", borderRadius: "16px", padding: "24px", textAlign: "center" }}>
                 <div style={{ fontSize: "2rem", marginBottom: "10px" }}>{item.icon}</div>
@@ -129,11 +129,11 @@ export default function ConditionsPage() {
       <section className="section">
         <div className="container">
           <div className="reveal" style={{ textAlign: "center", marginBottom: "52px" }}>
-            <span className="eyebrow">What We Treat</span>
+            <span className="eyebrow">Who We Serve</span>
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}>
-              Diagnoses We Commonly Serve
+              Situations We Commonly Support
             </h2>
-            <p style={{ color: "var(--muted)", maxWidth: "580px", margin: "0 auto" }}>The following conditions regularly benefit from skilled home health. Our team is experienced across all of these diagnoses and works closely with your physician to design the right plan of care.</p>
+            <p style={{ color: "var(--muted)", maxWidth: "580px", margin: "0 auto" }}>The following situations regularly benefit from personal care aide support. Our team is experienced across all of these and will match you with the right aide for your needs.</p>
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: "22px" }}>
@@ -157,11 +157,11 @@ export default function ConditionsPage() {
       <section className="section" style={{ background: "var(--cream-dark)" }}>
         <div className="container">
           <div style={{ maxWidth: "680px", margin: "0 auto", textAlign: "center" }} className="reveal">
-            <span className="eyebrow">Don&rsquo;t See Your Condition?</span>
+            <span className="eyebrow">Don&rsquo;t See Your Situation?</span>
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "18px" }}>
-              We Treat More Than What&rsquo;s Listed
+              We Support More Than What&rsquo;s Listed
             </h2>
-            <p style={{ color: "var(--muted)", fontSize: "1rem", lineHeight: "1.8", marginBottom: "28px" }}>The conditions above represent our most common referrals, but our clinical team is equipped to support many other diagnoses. If a physician has ordered home health services, call us and we&rsquo;ll let you know how we can help.</p>
+            <p style={{ color: "var(--muted)", fontSize: "1rem", lineHeight: "1.8", marginBottom: "28px" }}>The situations above represent our most common referrals, but if someone needs help with daily living activities at home, we can almost certainly help. Call us and we&rsquo;ll talk through what&rsquo;s needed.</p>
             <div style={{ display: "flex", gap: "14px", justifyContent: "center", flexWrap: "wrap" }}>
               <Link href="/contact" className="btn btn-primary">Talk to Our Team</Link>
               <Link href="tel:7577157829" className="btn btn-outline-dark">(757) 715-7829</Link>
@@ -176,7 +176,7 @@ export default function ConditionsPage() {
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "32px", flexWrap: "wrap" }}>
             <div>
               <h3 style={{ color: "var(--white)", fontSize: "1.2rem", marginBottom: "8px" }}>Referring a Patient?</h3>
-              <p style={{ color: "rgba(255,255,255,.6)", fontSize: ".92rem", maxWidth: "500px" }}>Call or fax your referral to our intake team. We confirm eligibility same day in most cases.</p>
+              <p style={{ color: "rgba(255,255,255,.6)", fontSize: ".92rem", maxWidth: "500px" }}>Call our intake team. We confirm eligibility same day in most cases and care typically begins within 48 hours.</p>
             </div>
             <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", flexShrink: 0 }}>
               <Link href="/providers" className="btn btn-gold">Referral Information &rarr;</Link>

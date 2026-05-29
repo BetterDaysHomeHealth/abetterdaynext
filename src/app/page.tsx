@@ -48,7 +48,7 @@ export default function HomePage() {
             </h1>
 
             <p className="hero-sub">
-              VDH-licensed home health agency delivering skilled nursing, therapy, and personal care
+              VDH-licensed home care agency delivering compassionate personal care
               to families across Hampton Roads &mdash; with the warmth and dignity every patient deserves.
             </p>
 
@@ -68,43 +68,43 @@ export default function HomePage() {
               </div>
               <div className="hero-trust-item">
                 <span className="hero-trust-check">&#10003;</span>
-                Skilled &amp; Personal Care
+                Certified Personal Care Aides
               </div>
             </div>
           </div>
 
           <div className="hero-cards">
             <div className="hero-card">
-              <div className="hero-card-icon teal">&#127973;</div>
-              <div>
-                <h4>Skilled Nursing</h4>
-                <p>RN &amp; LPN wound care, IV therapy, medication management and more</p>
-              </div>
-              <span className="hero-card-badge">RN / LPN</span>
-            </div>
-
-            <div className="hero-card">
-              <div className="hero-card-icon gold">&#129657;</div>
-              <div>
-                <h4>Rehabilitation Therapy</h4>
-                <p>Physical and occupational therapy in your home</p>
-              </div>
-              <span className="hero-card-badge gold-badge">PT / OT</span>
-            </div>
-
-            <div className="hero-card">
-              <div className="hero-card-icon blue">&#128116;</div>
+              <div className="hero-card-icon teal">&#128116;</div>
               <div>
                 <h4>Personal Care Aides</h4>
-                <p>PCA, CNA, and HHA services for daily living assistance</p>
+                <p>PCA, CNA, and HHA services for bathing, grooming, and daily living</p>
               </div>
               <span className="hero-card-badge">PCA / CNA</span>
             </div>
 
             <div className="hero-card">
-              <div className="hero-card-icon teal">&#127968;</div>
+              <div className="hero-card-icon gold">&#127869;</div>
               <div>
-                <h4>Hampton Roads & Beyond</h4>
+                <h4>Meal Preparation</h4>
+                <p>Nutritious meals planned and prepared in your home</p>
+              </div>
+              <span className="hero-card-badge">Support</span>
+            </div>
+
+            <div className="hero-card">
+              <div className="hero-card-icon blue">&#128149;</div>
+              <div>
+                <h4>Companionship</h4>
+                <p>Meaningful connection and engagement to reduce isolation</p>
+              </div>
+              <span className="hero-card-badge">Support</span>
+            </div>
+
+            <div className="hero-card">
+              <div className="hero-card-icon teal">&#128205;</div>
+              <div>
+                <h4>Hampton Roads &amp; Beyond</h4>
                 <p>Proudly serving Hampton Roads and surrounding areas</p>
               </div>
               <span className="hero-card-badge">Local Care</span>
@@ -117,23 +117,23 @@ export default function HomePage() {
       <div className="marquee-strip">
         <div className="marquee-track">
           <span>VDH Licensed Agency<span className="marquee-dot" /></span>
-          <span>Skilled Nursing (RN &amp; LPN)<span className="marquee-dot" /></span>
-          <span>Physical Therapy<span className="marquee-dot" /></span>
-          <span>Occupational Therapy<span className="marquee-dot" /></span>
           <span>Personal Care Aides<span className="marquee-dot" /></span>
+          <span>Certified Nursing Assistants<span className="marquee-dot" /></span>
+          <span>Home Health Aides<span className="marquee-dot" /></span>
+          <span>Meal Preparation<span className="marquee-dot" /></span>
+          <span>Companionship &amp; Respite<span className="marquee-dot" /></span>
           <span>Medicaid Accepted<span className="marquee-dot" /></span>
           <span>Sentara Accepted<span className="marquee-dot" /></span>
           <span>Hampton Roads, Virginia<span className="marquee-dot" /></span>
-          <span>Compassionate Care<span className="marquee-dot" /></span>
           <span>VDH Licensed Agency<span className="marquee-dot" /></span>
-          <span>Skilled Nursing (RN &amp; LPN)<span className="marquee-dot" /></span>
-          <span>Physical Therapy<span className="marquee-dot" /></span>
-          <span>Occupational Therapy<span className="marquee-dot" /></span>
           <span>Personal Care Aides<span className="marquee-dot" /></span>
+          <span>Certified Nursing Assistants<span className="marquee-dot" /></span>
+          <span>Home Health Aides<span className="marquee-dot" /></span>
+          <span>Meal Preparation<span className="marquee-dot" /></span>
+          <span>Companionship &amp; Respite<span className="marquee-dot" /></span>
           <span>Medicaid Accepted<span className="marquee-dot" /></span>
           <span>Sentara Accepted<span className="marquee-dot" /></span>
           <span>Hampton Roads, Virginia<span className="marquee-dot" /></span>
-          <span>Compassionate Care<span className="marquee-dot" /></span>
         </div>
       </div>
 
@@ -147,24 +147,24 @@ export default function HomePage() {
                 className="display"
                 style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "24px" }}
               >
-                Serving Hampton Roads with Heart &amp; Expertise
+                Serving Hampton Roads with Heart &amp; Dedication
               </h2>
               <p>
-                Better Days Home Health is a Virginia Department of Health-licensed home health agency
-                committed to delivering compassionate, skilled, and personal care to patients and families
+                Better Days Home Health is a Virginia Department of Health-licensed home care agency
+                committed to delivering compassionate personal care to patients and families
                 throughout Hampton Roads.
               </p>
               <p>
                 We believe every person deserves to receive care in the comfort and dignity of their own
-                home. Our team of licensed nurses, therapists, and certified aides work together to create
-                personalized care plans that improve health outcomes and quality of life.
+                home. Our team of certified aides and care coordinators work together to create
+                personalized care plans that support independence and quality of life.
               </p>
               <div className="about-checklist">
                 <div className="check-item"><span className="check-icon">&#10003;</span>VDH Licensed</div>
                 <div className="check-item"><span className="check-icon">&#10003;</span>Medicaid Accepted</div>
                 <div className="check-item"><span className="check-icon">&#10003;</span>Sentara Network</div>
-                <div className="check-item"><span className="check-icon">&#10003;</span>Skilled Nursing</div>
-                <div className="check-item"><span className="check-icon">&#10003;</span>All Therapies</div>
+                <div className="check-item"><span className="check-icon">&#10003;</span>Certified Aides</div>
+                <div className="check-item"><span className="check-icon">&#10003;</span>Background Checked</div>
                 <div className="check-item"><span className="check-icon">&#10003;</span>Personal Care</div>
               </div>
               <Link href="/about" className="btn btn-outline-dark">Our Full Story &rarr;</Link>
@@ -183,38 +183,15 @@ export default function HomePage() {
               className="display"
               style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}
             >
-              Comprehensive Home Health Services
+              Personal Care Services
             </h2>
             <p style={{ color: "var(--muted)", maxWidth: "560px", margin: "0 auto" }}>
-              From complex skilled nursing to daily personal assistance, we provide the full spectrum of
-              home health care your family needs.
+              Compassionate daily living support from certified aides who treat every patient like family &mdash; so you or your loved one can remain safely at home.
             </p>
           </div>
 
-          <div className="svc-overview-grid">
-            <div className="svc-overview-card reveal reveal-delay-1">
-              <div className="svc-overview-header teal-bg">
-                <div className="svc-overview-icon-wrap teal">&#127973;</div>
-                <h3>Skilled Care Services</h3>
-                <p>Clinical care delivered by licensed nurses and certified therapists for patients with complex medical needs.</p>
-              </div>
-              <div className="svc-overview-body">
-                <ul className="svc-list">
-                  <li>RN Wound Care</li>
-                  <li>RN IV Therapy</li>
-                  <li>Medication Management</li>
-                  <li>Skilled Assessments</li>
-                  <li>LPN Services</li>
-                  <li>Physical Therapy (PT)</li>
-                  <li>Occupational Therapy (OT)</li>
-                </ul>
-                <Link href="/services" className="btn btn-primary" style={{ width: "100%", justifyContent: "center" }}>
-                  View All Skilled Services &rarr;
-                </Link>
-              </div>
-            </div>
-
-            <div className="svc-overview-card reveal reveal-delay-2">
+          <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+            <div className="svc-overview-card reveal">
               <div className="svc-overview-header gold-bg">
                 <div className="svc-overview-icon-wrap gold">&#128116;</div>
                 <h3>Personal Care Services</h3>
@@ -231,8 +208,8 @@ export default function HomePage() {
                   <li>Light Housekeeping</li>
                   <li>Medication Reminders</li>
                 </ul>
-                <Link href="/services" className="btn btn-outline-dark" style={{ width: "100%", justifyContent: "center" }}>
-                  View All Personal Services &rarr;
+                <Link href="/services" className="btn btn-primary" style={{ width: "100%", justifyContent: "center" }}>
+                  View All Services &rarr;
                 </Link>
               </div>
             </div>
@@ -283,7 +260,7 @@ export default function HomePage() {
                 <span className="hhh-dot red" /><span className="hhh-dot amber" /><span className="hhh-dot green" />
                 <span className="hhh-mock-title">New Case Received</span>
               </div>
-              <div className="hhh-mock-row"><span className="hhh-mk">Service</span><span className="hhh-mv">Skilled Nursing (RN)</span></div>
+              <div className="hhh-mock-row"><span className="hhh-mk">Service</span><span className="hhh-mv">Personal Care Aide</span></div>
               <div className="hhh-mock-row"><span className="hhh-mk">Location</span><span className="hhh-mv">Virginia Beach, VA</span></div>
               <div className="hhh-mock-row"><span className="hhh-mk">Status</span><span className="hhh-badge hhh-open">Open</span></div>
             </div>
@@ -298,7 +275,7 @@ export default function HomePage() {
                 <span className="hhh-dot red" /><span className="hhh-dot amber" /><span className="hhh-dot green" />
                 <span className="hhh-mock-title">Staff Confirmed &#10003;</span>
               </div>
-              <div className="hhh-mock-row"><span className="hhh-mk">Staff</span><span className="hhh-mv">Sarah M., RN</span></div>
+              <div className="hhh-mock-row"><span className="hhh-mk">Staff</span><span className="hhh-mv">Maria T., PCA</span></div>
               <div className="hhh-mock-row"><span className="hhh-mk">Notified</span><span className="hhh-mv">via SMS &#128241;</span></div>
               <div className="hhh-mock-row"><span className="hhh-mk">Time to Fill</span><span className="hhh-badge hhh-filled">4 hrs 22 min</span></div>
             </div>
@@ -323,7 +300,7 @@ export default function HomePage() {
             >
               The Better Days Difference
             </h2>
-            <p>We combine clinical excellence with genuine compassion to provide home health care that truly makes a difference.</p>
+            <p>We combine professional training with genuine compassion to provide home care that truly makes a difference in people&apos;s lives.</p>
           </div>
 
           <div className="why-grid">
@@ -334,8 +311,8 @@ export default function HomePage() {
             </div>
             <div className="why-card reveal reveal-delay-2">
               <div className="why-num">02</div>
-              <h4>Skilled Clinical Team</h4>
-              <p>Our licensed RNs, LPNs, physical therapists, and occupational therapists bring hospital-level expertise directly to your home.</p>
+              <h4>Certified, Compassionate Aides</h4>
+              <p>Our PCAs, CNAs, and HHAs are certified, background-checked, and selected not just for their credentials but for their character and warmth.</p>
             </div>
             <div className="why-card reveal reveal-delay-3">
               <div className="why-num">03</div>
@@ -345,7 +322,7 @@ export default function HomePage() {
             <div className="why-card reveal reveal-delay-1">
               <div className="why-num">04</div>
               <h4>Personalized Care Plans</h4>
-              <p>No two patients are the same. We craft individualized care plans in collaboration with physicians, patients, and families to achieve the best possible outcomes.</p>
+              <p>No two patients are the same. We match each client with the right aide and build a schedule that fits their daily routine and unique needs.</p>
             </div>
             <div className="why-card reveal reveal-delay-2">
               <div className="why-num">05</div>
@@ -355,7 +332,7 @@ export default function HomePage() {
             <div className="why-card reveal reveal-delay-3">
               <div className="why-num">06</div>
               <h4>Compassion at Every Visit</h4>
-              <p>Beyond clinical skill, we deliver genuine human connection. Our caregivers are chosen not just for their credentials, but for their warmth and dedication.</p>
+              <p>Our caregivers are chosen not just for their certifications, but for the genuine human connection they bring to every visit.</p>
             </div>
           </div>
         </div>
@@ -373,40 +350,39 @@ export default function HomePage() {
               Care for Life&apos;s Most Challenging Moments
             </h2>
             <p style={{ color: "var(--muted)", maxWidth: "580px", margin: "0 auto" }}>
-              From recovering after surgery to managing a chronic condition at home &mdash; we meet
-              patients and families wherever they are.
+              From aging in place to recovering at home &mdash; we meet patients and families wherever they are.
             </p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(200px,1fr))", gap: "16px" }}>
             <div className="who-card reveal reveal-delay-1">
-              <div className="who-icon">🏥</div>
-              <h4>Post-Surgery Recovery</h4>
-              <p>Wound care, therapy, and daily support after joint replacement, cardiac surgery, or other procedures.</p>
-            </div>
-            <div className="who-card reveal reveal-delay-2">
-              <div className="who-icon">🧠</div>
-              <h4>Stroke &amp; Neurological</h4>
-              <p>Skilled nursing and physical therapy to help patients regain function and independence after stroke.</p>
-            </div>
-            <div className="who-card reveal reveal-delay-3">
-              <div className="who-icon">🩺</div>
-              <h4>Chronic Illness Management</h4>
-              <p>Ongoing support for diabetes, heart failure, COPD, and other conditions requiring regular clinical oversight.</p>
-            </div>
-            <div className="who-card reveal reveal-delay-4">
               <div className="who-icon">👴</div>
               <h4>Aging in Place</h4>
-              <p>Helping seniors stay safely and comfortably in their own homes with personal care and companionship.</p>
-            </div>
-            <div className="who-card reveal reveal-delay-1">
-              <div className="who-icon">🤕</div>
-              <h4>Injury &amp; Fall Recovery</h4>
-              <p>Physical and occupational therapy to rebuild strength, balance, and confidence after a fall or injury.</p>
+              <p>Helping seniors stay safely and comfortably in their own homes with personal care, companionship, and daily support.</p>
             </div>
             <div className="who-card reveal reveal-delay-2">
-              <div className="who-icon">💊</div>
-              <h4>Medication Management</h4>
-              <p>Complex medication regimens managed by our RNs to reduce errors and prevent hospital readmissions.</p>
+              <div className="who-icon">🐘</div>
+              <h4>Dementia &amp; Alzheimer&apos;s</h4>
+              <p>Structured personal care, medication reminders, and compassionate companionship that preserves dignity and provides family relief.</p>
+            </div>
+            <div className="who-card reveal reveal-delay-3">
+              <div className="who-icon">🏥</div>
+              <h4>Post-Hospital Recovery</h4>
+              <p>Personal care aide support — bathing, meals, light housekeeping — while recovering from surgery or illness at home.</p>
+            </div>
+            <div className="who-card reveal reveal-delay-4">
+              <div className="who-icon">🩺</div>
+              <h4>Chronic Illness Support</h4>
+              <p>Daily living support for patients managing diabetes, heart failure, COPD, and other conditions at home.</p>
+            </div>
+            <div className="who-card reveal reveal-delay-1">
+              <div className="who-icon">🧬</div>
+              <h4>Parkinson&apos;s &amp; MS</h4>
+              <p>Personal care and companionship that helps patients with neurological conditions maintain comfort and safety at home.</p>
+            </div>
+            <div className="who-card reveal reveal-delay-2">
+              <div className="who-icon">👪</div>
+              <h4>Family Caregiver Relief</h4>
+              <p>Respite care for family members — a trusted aide steps in so you can rest, knowing your loved one is in good hands.</p>
             </div>
           </div>
         </div>
@@ -427,7 +403,7 @@ export default function HomePage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: "20px" }}>
             <div className="testimonial-card reveal reveal-delay-1">
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-              <p className="testimonial-text">&ldquo;After my mother&apos;s hip replacement, we didn&apos;t know how we&apos;d manage her care at home. Better Days sent a nurse and a physical therapist who were professional, kind, and genuinely invested in her recovery. She was back on her feet faster than anyone expected.&rdquo;</p>
+              <p className="testimonial-text">&ldquo;After my mother&apos;s hip replacement, we didn&apos;t know how we&apos;d manage her daily care at home. Better Days matched us with a wonderful aide who was professional, kind, and genuinely invested in Mom&apos;s well-being. It made such a difference for our whole family.&rdquo;</p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar">MR</div>
                 <div>
@@ -438,17 +414,6 @@ export default function HomePage() {
             </div>
             <div className="testimonial-card reveal reveal-delay-2">
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-              <p className="testimonial-text">&ldquo;Our RN was incredible &mdash; she caught a wound infection early that would have sent my father back to the hospital. The whole team communicated with us throughout. I can&apos;t recommend Better Days enough to any family navigating home health care.&rdquo;</p>
-              <div className="testimonial-author">
-                <div className="testimonial-avatar">DJ</div>
-                <div>
-                  <div className="testimonial-name">David J.</div>
-                  <div className="testimonial-location">Norfolk, VA</div>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-card reveal reveal-delay-3">
-              <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
               <p className="testimonial-text">&ldquo;The caregiver we were matched with became like family. She was reliable, compassionate, and treated my grandmother with so much dignity. Knowing someone that caring is there every day gives our whole family peace of mind.&rdquo;</p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar">SL</div>
@@ -458,9 +423,20 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+            <div className="testimonial-card reveal reveal-delay-3">
+              <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p className="testimonial-text">&ldquo;My father has Parkinson&apos;s and getting him ready each morning was becoming impossible for me to manage alone. His aide is patient, skilled, and treats Dad with such respect. I finally feel like I can breathe again knowing he&apos;s in good hands.&rdquo;</p>
+              <div className="testimonial-author">
+                <div className="testimonial-avatar">DJ</div>
+                <div>
+                  <div className="testimonial-name">David J.</div>
+                  <div className="testimonial-location">Norfolk, VA</div>
+                </div>
+              </div>
+            </div>
             <div className="testimonial-card reveal reveal-delay-1">
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-              <p className="testimonial-text">&ldquo;As a discharge planner, I have worked with a lot of home health agencies. Better Days is one of the few I trust completely. They confirm eligibility fast, keep me updated on patient progress, and actually follow through on what they promise. My patients are in good hands.&rdquo;</p>
+              <p className="testimonial-text">&ldquo;As a discharge planner, I have worked with a lot of home health agencies. Better Days is one of the few I trust completely. They confirm eligibility fast, keep me updated, and actually follow through on what they promise. My patients are in good hands.&rdquo;</p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar">KW</div>
                 <div>
@@ -471,7 +447,7 @@ export default function HomePage() {
             </div>
             <div className="testimonial-card reveal reveal-delay-2">
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-              <p className="testimonial-text">&ldquo;After my dad&apos;s knee replacement, we weren&apos;t sure what to expect from home physical therapy. His PT was phenomenal &mdash; she pushed him just enough, kept him motivated, and he recovered faster than his surgeon expected.&rdquo;</p>
+              <p className="testimonial-text">&ldquo;Mom has dementia and we were struggling to manage her care and still hold down our jobs. Better Days gave us structure and a consistent caregiver she genuinely trusts. It&apos;s changed everything for our family.&rdquo;</p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar">TM</div>
                 <div>
@@ -482,7 +458,7 @@ export default function HomePage() {
             </div>
             <div className="testimonial-card reveal reveal-delay-3">
               <div className="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-              <p className="testimonial-text">&ldquo;My mother has diabetes and CHF, and managing her medications was overwhelming. Her Better Days nurse visits twice a week and has completely taken the stress off our family. She explains everything clearly and we finally feel like we understand Mom&apos;s care.&rdquo;</p>
+              <p className="testimonial-text">&ldquo;We were hesitant to bring someone into our home, but the screening process gave us confidence. The aide they matched with my mother-in-law was professional and warm from day one. We couldn&apos;t be happier with the decision.&rdquo;</p>
               <div className="testimonial-author">
                 <div className="testimonial-avatar">RB</div>
                 <div>
@@ -519,12 +495,12 @@ export default function HomePage() {
             <div className="step-card reveal reveal-delay-2">
               <div className="step-num">2</div>
               <h3>We Build Your Care Plan</h3>
-              <p>Our clinical team coordinates with your physician to create a personalized care plan. We handle all the paperwork, referrals, and insurance authorizations.</p>
+              <p>Our care coordinators create a personalized plan and match you with a certified aide. We handle the paperwork and insurance verification.</p>
             </div>
             <div className="step-card reveal reveal-delay-3">
               <div className="step-num">3</div>
               <h3>Care Begins at Home</h3>
-              <p>Your care team arrives at your home, on your schedule. We match you with the right caregiver and check in regularly to make sure everything is working perfectly.</p>
+              <p>Your aide arrives at your home, on your schedule. We check in regularly to make sure everything is working perfectly.</p>
             </div>
           </div>
         </div>
@@ -542,37 +518,36 @@ export default function HomePage() {
               Questions Families Ask
             </h2>
             <p style={{ color: "var(--muted)", maxWidth: "560px", margin: "0 auto" }}>
-              Navigating home health care can feel overwhelming. Here are answers to what families ask us most often.
+              Navigating home care can feel overwhelming. Here are answers to what families ask us most often.
             </p>
           </div>
 
           <div className="faq-list">
             <details className="faq-item reveal reveal-delay-1">
-              <summary className="faq-question">Does Medicaid cover home health care in Virginia?</summary>
+              <summary className="faq-question">Does Medicaid cover personal care at home in Virginia?</summary>
               <div className="faq-answer">
-                <p>Yes. Virginia Medicaid covers a broad range of home health services including skilled nursing visits, physical therapy, occupational therapy, and personal care aides for eligible patients. Better Days Home Health is a Medicaid-enrolled provider. We verify your benefits at no cost to you before care begins.</p>
+                <p>Yes. Virginia Medicaid covers personal care aide services for eligible patients through several programs, including the CCC Plus Waiver. This can cover PCA, CNA, and HHA visits to assist with bathing, grooming, meal preparation, and other daily activities. Better Days Home Health is a Medicaid-enrolled provider. We verify your benefits at no cost before care begins.</p>
               </div>
             </details>
 
             <details className="faq-item reveal reveal-delay-2">
-              <summary className="faq-question">How do I know if my family member qualifies for home health?</summary>
+              <summary className="faq-question">Do I need a doctor&apos;s order to start personal care?</summary>
               <div className="faq-answer">
-                <p>Generally, a patient qualifies for skilled home health when they are homebound (leaving home requires significant effort) and have a medical need &mdash; such as wound care, IV therapy, medication management, or rehabilitation therapy &mdash; ordered by a physician. Personal care services have different eligibility criteria based on functional need. Call us and we will walk you through your options at no charge.</p>
+                <p>For most personal care services, a physician&apos;s order is not required to get started. Some Medicaid waiver programs may require a care assessment or physician documentation, but we handle that process for you. Simply call us and we&apos;ll walk you through exactly what&apos;s needed for your situation &mdash; at no charge.</p>
               </div>
             </details>
 
             <details className="faq-item reveal reveal-delay-3">
-              <summary className="faq-question">What is the difference between skilled nursing and personal care?</summary>
+              <summary className="faq-question">What kinds of tasks can a personal care aide help with?</summary>
               <div className="faq-answer">
-                <p><strong>Skilled nursing</strong> is clinical care delivered by a licensed RN or LPN &mdash; wound care, IV therapy, medication management, and post-surgical assessments. It is typically ordered by a physician and covered by Medicaid or insurance.</p>
-                <p><strong>Personal care</strong> is assistance with daily living &mdash; bathing, dressing, meal preparation, companionship, and light housekeeping &mdash; provided by a certified aide (PCA, CNA, or HHA). Both types of care can often be provided together under a coordinated care plan.</p>
+                <p>Our certified aides help with a wide range of daily activities including bathing, dressing, grooming, toileting, meal preparation, light housekeeping, medication reminders, companionship, and accompanying clients to appointments. They are not licensed to provide clinical care like wound care or IV therapy, but for daily living support they are highly trained and compassionate.</p>
               </div>
             </details>
 
             <details className="faq-item reveal reveal-delay-1">
               <summary className="faq-question">How quickly can care begin after we contact you?</summary>
               <div className="faq-answer">
-                <p>In most cases, we can confirm insurance eligibility same-day and begin care within 24&ndash;48 hours of receiving a physician&apos;s order. We understand that transitions from hospital to home are time-sensitive, and we move quickly to ensure there is no gap in care.</p>
+                <p>In most cases, we can confirm insurance eligibility same-day and begin care within 24&ndash;48 hours of approval. We understand that families often need help quickly, and we work hard to make sure there is no unnecessary wait between when you call and when care begins.</p>
               </div>
             </details>
 
@@ -616,7 +591,7 @@ export default function HomePage() {
               Insurance &amp; Payment Options
             </h2>
             <p style={{ color: "var(--muted)", maxWidth: "480px", margin: "0 auto" }}>
-              We work with major insurance providers to make home health care accessible to every family.
+              We work with major insurance providers to make home care accessible to every family.
             </p>
           </div>
 

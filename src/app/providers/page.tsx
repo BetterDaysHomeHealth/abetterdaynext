@@ -6,15 +6,15 @@ import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
   title: "For Referring Providers | Better Days Home Health | Hampton Roads, VA",
   description:
-    "Refer a patient to Better Days Home Health. Fast intake, same-day insurance verification, and care that typically begins within 48 hours. Call (757) 715-7829 or fax your referral.",
+    "Refer a patient to Better Days Home Health for personal care services. Fast intake, same-day insurance verification, and care that typically begins within 48 hours. Call (757) 715-7829.",
 };
 
 const diagnoses = [
-  "Post-Surgical Recovery", "Total Joint Replacement", "CHF / Heart Failure",
-  "COPD / Respiratory Disease", "Diabetes Management", "Stroke / CVA",
-  "Wound Care", "IV Antibiotic Therapy", "Medication Management",
-  "Fall Recovery", "Orthopedic Rehab", "Parkinson's Disease",
-  "Multiple Sclerosis", "Cancer / Oncology", "Dementia Support", "Post-Cardiac Event",
+  "Dementia & Alzheimer's", "Parkinson's Disease", "Multiple Sclerosis",
+  "Stroke Recovery", "CHF / Heart Failure", "COPD / Respiratory Disease",
+  "Diabetes Management", "Post-Surgical Recovery", "Fall Recovery",
+  "Cancer / Oncology Support", "Orthopedic Recovery", "Aging in Place",
+  "Limited Mobility / Disability", "Family Caregiver Relief", "Depression & Social Isolation", "Post-Cardiac Event",
 ];
 
 export default function ProvidersPage() {
@@ -25,9 +25,9 @@ export default function ProvidersPage() {
       {/* PAGE HERO */}
       <section className="page-hero">
         <div className="container page-hero-content">
-          <span className="page-hero-badge">🏥 &nbsp; Physicians &amp; Discharge Planners</span>
+          <span className="page-hero-badge">🏥 &nbsp; Discharge Planners &amp; Social Workers</span>
           <h1>Refer a Patient to Better Days</h1>
-          <p>Fast intake, reliable clinical communication, and care that typically begins within 48 hours. Call us or fax the referral — we handle everything from there.</p>
+          <p>Fast intake, reliable communication, and personal care that typically begins within 48 hours. Call us &mdash; we handle everything from there.</p>
           <div style={{ display: "flex", gap: "14px", flexWrap: "wrap", justifyContent: "center", marginTop: "32px" }}>
             <Link href="tel:7577157829" className="btn btn-gold">Call (757) 715-7829</Link>
             <Link href="/contact" className="btn btn-outline">Send Us a Message</Link>
@@ -41,7 +41,7 @@ export default function ProvidersPage() {
           <div className="reveal" style={{ textAlign: "center", marginBottom: "52px" }}>
             <span className="eyebrow">Why Better Days</span>
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}>
-              The Home Health Partner Discharge Teams Trust
+              The Personal Care Partner Discharge Teams Trust
             </h2>
             <p style={{ color: "var(--muted)", maxWidth: "640px", margin: "0 auto" }}>We built our agency around one promise: when you refer a patient to us, we follow through &mdash; fast intake, insurance verification same day in most cases, and clear communication back to your team throughout the care episode.</p>
           </div>
@@ -50,17 +50,17 @@ export default function ProvidersPage() {
             <div className="ins-page-card reveal reveal-delay-1">
               <div className="ins-page-icon" style={{ background: "var(--teal-light)" }}>⚡</div>
               <h3>Fast Intake</h3>
-              <p>We accept referrals by phone or fax. In most cases we confirm eligibility and begin scheduling within the same business day.</p>
+              <p>We accept referrals by phone. In most cases we confirm eligibility and begin scheduling within the same business day.</p>
             </div>
             <div className="ins-page-card reveal reveal-delay-2">
               <div className="ins-page-icon" style={{ background: "var(--gold-light)" }}>📋</div>
-              <h3>Clinical Communication</h3>
-              <p>Your team receives updates on patient progress, changes in condition, and episode completion. You stay informed without having to chase us down.</p>
+              <h3>Clear Communication</h3>
+              <p>Your team stays informed throughout the care episode. We keep you updated on patient status so your patients don&apos;t fall through the cracks.</p>
             </div>
             <div className="ins-page-card reveal reveal-delay-3">
-              <div className="ins-page-icon" style={{ background: "var(--rose-light)" }}>🏥</div>
-              <h3>Full Spectrum of Care</h3>
-              <p>Skilled nursing (RN/LPN), physical therapy, occupational therapy, and personal care &mdash; so you can send any patient home with confidence.</p>
+              <div className="ins-page-icon" style={{ background: "var(--rose-light)" }}>🧑</div>
+              <h3>Personal Care Services</h3>
+              <p>PCA, CNA, and HHA services — bathing, grooming, meal prep, companionship, medication reminders, and light housekeeping for your patients transitioning home.</p>
             </div>
           </div>
         </div>
@@ -72,20 +72,20 @@ export default function ProvidersPage() {
           <div className="reveal" style={{ textAlign: "center", marginBottom: "52px" }}>
             <span className="eyebrow">Referral Process</span>
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}>
-              Two Ways to Refer &mdash; Your Choice
+              How to Refer a Patient
             </h2>
           </div>
 
           <div className="apply-steps-grid">
             <div className="apply-step reveal reveal-delay-1">
               <div className="apply-step-num">1</div>
-              <h4>Call Our Clinical Team</h4>
-              <p>Call us directly at (757) 715-7829. Our clinical intake coordinator will collect all necessary information over the phone and begin the authorization process immediately.</p>
+              <h4>Call Our Intake Team</h4>
+              <p>Call us directly at (757) 715-7829. Our intake coordinator will collect all necessary information over the phone and begin the verification process immediately.</p>
             </div>
             <div className="apply-step reveal reveal-delay-2">
               <div className="apply-step-num">2</div>
               <h4>Fax the Referral</h4>
-              <p>Fax the physician&rsquo;s order and face sheet to <strong>(757) 538-7187</strong>. Include the diagnosis, ordered services, and patient contact information. We&rsquo;ll confirm receipt within 2 hours during business hours.</p>
+              <p>Fax patient information and face sheet to <strong>(757) 538-7187</strong>. Include the diagnosis, care needs, and patient contact information. We&rsquo;ll confirm receipt within 2 hours during business hours.</p>
             </div>
           </div>
         </div>
@@ -99,23 +99,23 @@ export default function ProvidersPage() {
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}>
               What to Include with a Referral
             </h2>
-            <p style={{ color: "var(--muted)", maxWidth: "580px", margin: "0 auto" }}>To begin the authorization process, we need the following from the referring provider. The more complete the referral, the faster we can begin care.</p>
+            <p style={{ color: "var(--muted)", maxWidth: "580px", margin: "0 auto" }}>To begin the verification process, we need the following information. The more complete the referral, the faster we can begin care.</p>
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px 48px", maxWidth: "760px", margin: "0 auto" }} className="reveal">
             <div>
               <div className="check-item"><span className="check-icon">✓</span> Patient name and DOB</div>
-              <div className="check-item"><span className="check-icon">✓</span> Primary diagnosis (ICD-10)</div>
-              <div className="check-item"><span className="check-icon">✓</span> Ordered services (RN, PT, OT, etc.)</div>
+              <div className="check-item"><span className="check-icon">✓</span> Primary diagnosis or care need</div>
+              <div className="check-item"><span className="check-icon">✓</span> Type of personal care needed (PCA, CNA, HHA)</div>
               <div className="check-item"><span className="check-icon">✓</span> Insurance information</div>
-              <div className="check-item"><span className="check-icon">✓</span> Physician signature or verbal order</div>
+              <div className="check-item"><span className="check-icon">✓</span> Preferred start date</div>
             </div>
             <div>
               <div className="check-item"><span className="check-icon">✓</span> Patient address and phone</div>
-              <div className="check-item"><span className="check-icon">✓</span> Homebound status documentation</div>
-              <div className="check-item"><span className="check-icon">✓</span> Relevant medical history</div>
+              <div className="check-item"><span className="check-icon">✓</span> Emergency contact information</div>
+              <div className="check-item"><span className="check-icon">✓</span> Schedule preferences (morning, afternoon, hours/week)</div>
               <div className="check-item"><span className="check-icon">✓</span> Discharge summary (if applicable)</div>
-              <div className="check-item"><span className="check-icon">✓</span> Preferred start date</div>
+              <div className="check-item"><span className="check-icon">✓</span> Any special care considerations</div>
             </div>
           </div>
 
@@ -140,7 +140,7 @@ export default function ProvidersPage() {
           </div>
 
           <div className="reveal" style={{ display: "flex", flexWrap: "wrap", gap: "12px", justifyContent: "center", marginBottom: "32px" }}>
-            {["Medicare", "Medicare Advantage", "Virginia Medicaid", "Sentara Health Plans", "Commercial Insurance"].map((plan) => (
+            {["Virginia Medicaid (CCC Plus Waiver)", "Sentara Health Plans", "Commercial Insurance", "Long-Term Care Insurance", "Private Pay"].map((plan) => (
               <span key={plan} style={{ background: "var(--navy)", color: "#fff", fontSize: ".9rem", fontWeight: 700, padding: "10px 22px", borderRadius: "100px" }}>{plan}</span>
             ))}
           </div>
@@ -157,9 +157,9 @@ export default function ProvidersPage() {
           <div className="reveal" style={{ textAlign: "center", marginBottom: "44px" }}>
             <span className="eyebrow">Common Referrals</span>
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}>
-              Diagnoses We Frequently Receive
+              Situations We Frequently Support
             </h2>
-            <p style={{ color: "var(--muted)", maxWidth: "580px", margin: "0 auto" }}>We are equipped to receive referrals for a wide range of post-acute diagnoses. If you don&rsquo;t see a condition listed, call us &mdash; we can often accommodate.</p>
+            <p style={{ color: "var(--muted)", maxWidth: "580px", margin: "0 auto" }}>Our certified aides support a wide range of patients who need daily living assistance at home. If you don&apos;t see a condition listed, call us &mdash; we can often accommodate.</p>
           </div>
 
           <div className="reveal" style={{ display: "flex", flexWrap: "wrap", gap: "10px", justifyContent: "center", maxWidth: "860px", margin: "0 auto" }}>
@@ -176,7 +176,7 @@ export default function ProvidersPage() {
           <div className="cta-band-inner reveal">
             <div className="cta-band-text">
               <h2>Ready to Make a Referral?</h2>
-              <p>Our intake line is staffed during business hours. After-hours, fax your referral and we will follow up first thing the next business day.</p>
+              <p>Our intake line is staffed during business hours. After-hours, leave a message and we will follow up first thing the next business day.</p>
             </div>
             <div className="cta-band-actions">
               <Link href="tel:7577157829" className="cta-phone-link">
