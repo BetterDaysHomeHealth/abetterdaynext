@@ -233,6 +233,19 @@ img { max-width: 100%; display: block; }
   background: rgba(255,255,255,.1);
 }
 
+.nav-staff-btn {
+  background: transparent !important;
+  color: var(--navy) !important;
+  padding: 7px 16px;
+  border-radius: 50px;
+  font-weight: 600 !important;
+  border: 1.5px solid var(--navy) !important;
+  transition: all .2s !important;
+}
+.nav-staff-btn:hover {
+  background: var(--navy) !important;
+  color: var(--white) !important;
+}
 .nav-cta-btn {
   background: var(--teal) !important;
   color: var(--white) !important;

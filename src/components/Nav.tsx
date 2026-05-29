@@ -31,6 +31,7 @@ export function Nav() {
           <li><Link href="/insurance" onClick={closeMenu}>Insurance</Link></li>
           <li><Link href="/providers" onClick={closeMenu}>For Providers</Link></li>
           <li><Link href="/careers" onClick={closeMenu}>Careers</Link></li>
+          <li><a href="https://homehealthhub.care/login" className="nav-staff-btn" onClick={closeMenu}>Staff Portal</a></li>
           <li><Link href="/contact" className="nav-cta-btn" onClick={closeMenu}>Contact Us</Link></li>
         </ul>
 
