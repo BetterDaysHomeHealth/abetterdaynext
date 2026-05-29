@@ -8,7 +8,7 @@ import { CareerFormWrap } from "@/components/CareerFormWrap";
 export const metadata: Metadata = {
   title: "Careers | Better Days Home Health | Hampton Roads, VA",
   description:
-    "Join the Better Days Home Health team. We are hiring RNs, PTs, OTs, LPNs, PCAs, CNAs, and HHAs in Hampton Roads, Virginia. Apply today.",
+    "Join the Better Days Home Health team. We are hiring PCAs, CNAs, HHAs, and a Community Liaison in Hampton Roads, Virginia. Apply today.",
 };
 
 export default function CareersPage() {
@@ -34,7 +34,7 @@ export default function CareersPage() {
             <h2 className="display" style={{ fontSize: "clamp(1.9rem,3.5vw,2.6rem)", color: "var(--navy)", marginBottom: "14px" }}>
               A Team Worth Joining
             </h2>
-            <p style={{ color: "var(--muted)", maxWidth: "560px", margin: "0 auto" }}>We have built a workplace where clinical professionals can do their best work, grow their careers, and genuinely impact the lives of patients and families in our community.</p>
+            <p style={{ color: "var(--muted)", maxWidth: "560px", margin: "0 auto" }}>We have built a workplace where caregivers and community partners can do their best work, grow their careers, and genuinely impact the lives of patients and families in our community.</p>
           </div>
 
           <div className="perks-grid">
@@ -60,8 +60,8 @@ export default function CareersPage() {
             </div>
             <div className="perk-card reveal reveal-delay-3">
               <div className="perk-icon">📈</div>
-              <h4>Grow Your Clinical Skills</h4>
-              <p>Home health exposes you to a wide variety of patient populations and conditions. Build diverse clinical skills while maintaining the autonomy that makes home care unique.</p>
+              <h4>Room to Grow</h4>
+              <p>As Better Days grows, so does the team. Whether you&apos;re a caregiver building experience or a liaison growing a referral network, there is real opportunity here.</p>
             </div>
           </div>
         </div>
@@ -103,11 +103,10 @@ export default function CareersPage() {
 
           <div className="open-roles-grid">
             {[
-              { icon: "🏥", title: "Registered Nurse (RN)", desc: "Deliver skilled nursing visits including wound care, IV therapy, medication management, and patient assessments for our homebound patient population throughout Hampton Roads. Active Virginia RN license required.", delay: 1 },
-              { icon: "🧘", title: "Physical Therapist (PT)", desc: "Provide in-home physical therapy evaluations and treatments for patients recovering from surgery, stroke, injury, or managing chronic conditions. Active Virginia PT license required.", delay: 2 },
-              { icon: "🤛", title: "Occupational Therapist (OT)", desc: "Evaluate and treat patients to improve functional independence in daily activities. Conduct home safety assessments and recommend adaptive equipment. Active Virginia OT license required.", delay: 3 },
-              { icon: "💊", title: "Licensed Practical Nurse (LPN)", desc: "Provide skilled nursing services under RN supervision including medication administration, wound care assistance, vital signs monitoring, and patient education. Active Virginia LPN license required.", delay: 1 },
-              { icon: "🧑", title: "PCA / CNA / HHA", desc: "Provide compassionate personal care and daily living assistance to patients in their homes. Duties include personal hygiene, meal prep, companionship, and light housekeeping. CNA certification or HHA/PCA training preferred.", delay: 2 },
+              { icon: "🧑", title: "Personal Care Aide (PCA)", desc: "Provide compassionate personal care and daily living assistance to patients in their homes throughout Hampton Roads. Duties include bathing, grooming, dressing, meal preparation, companionship, medication reminders, and light housekeeping. PCA training required.", delay: 1 },
+              { icon: "👨‍⚕️", title: "Certified Nursing Assistant (CNA)", desc: "Provide personal care, basic health observations, and daily living support for patients in their homes. CNAs assist with bathing, grooming, vital signs monitoring, and patient comfort. Active Virginia CNA certification required.", delay: 2 },
+              { icon: "🏠", title: "Home Health Aide (HHA)", desc: "Assist patients with personal care, light housekeeping, and daily living activities as part of a coordinated home care plan. HHA certification or equivalent training required.", delay: 3 },
+              { icon: "🤝", title: "Community Liaison", desc: "Build and maintain referral relationships with hospital discharge planners, social workers, assisted living facilities, and physician offices across Hampton Roads. Commission-based — $200 per admitted case plus a monthly retainer once you hit volume. Ideal for someone with existing healthcare relationships.", delay: 1 },
             ].map((role) => (
               <div key={role.title} className={`open-role-card reveal reveal-delay-${role.delay}`}>
                 <div className="open-role-header">
