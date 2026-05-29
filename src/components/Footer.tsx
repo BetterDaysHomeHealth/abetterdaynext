@@ -15,18 +15,18 @@ export function Footer() {
               className="footer-logo-img"
             />
             <p>
-              A Virginia Department of Health-licensed home health agency committed to delivering
-              compassionate, skilled, and personal care throughout Hampton Roads.
+              A Virginia Department of Health-licensed home care agency committed to delivering
+              compassionate personal care throughout Hampton Roads.
             </p>
           </div>
 
           <div className="footer-col">
             <h4>Services</h4>
             <ul>
-              <li><Link href="/services">Skilled Nursing (RN / LPN)</Link></li>
-              <li><Link href="/services">Physical Therapy (PT)</Link></li>
-              <li><Link href="/services">Occupational Therapy (OT)</Link></li>
-              <li><Link href="/services">Personal Care (PCA / CNA / HHA)</Link></li>
+              <li><Link href="/services">Personal Care Aides (PCA)</Link></li>
+              <li><Link href="/services">Certified Nursing Assistants (CNA)</Link></li>
+              <li><Link href="/services">Home Health Aides (HHA)</Link></li>
+              <li><Link href="/services">Meal Preparation</Link></li>
               <li><Link href="/services">Companionship &amp; Support</Link></li>
             </ul>
           </div>
