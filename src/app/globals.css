@@ -45,8 +45,8 @@ img { max-width: 100%; display: block; }
   padding: 0 28px;
 }
 
-.section { padding: 96px 0; }
-.section-sm { padding: 64px 0; }
+.section { padding: 80px 0; }
+.section-sm { padding: 52px 0; }
 
 /* ── Scroll Reveal ─────────────────────────────────────────── */
 .reveal {
@@ -1893,7 +1893,7 @@ footer {
 
 .open-roles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 

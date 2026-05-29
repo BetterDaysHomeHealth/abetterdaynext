@@ -185,7 +185,7 @@ export default function AboutPage() {
       </section>
 
       {/* FOR REFERRING PROVIDERS */}
-      <section className="section" style={{ background: "var(--cream-dark)" }}>
+      <section className="section">
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "64px", alignItems: "center" }} className="reveal">
             <div>

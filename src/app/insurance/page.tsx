@@ -138,7 +138,7 @@ export default function InsurancePage() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="section" style={{ background: "var(--cream-dark)" }}>
+      <section className="section" style={{ background: "var(--white)" }}>
         <div className="container">
           <div className="reveal" style={{ textAlign: "center", marginBottom: "52px" }}>
             <span className="eyebrow">The Process</span>

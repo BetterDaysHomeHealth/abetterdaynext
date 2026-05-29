@@ -68,13 +68,10 @@ export function CareerFormWrap() {
           <label htmlFor="appRole">Role Applying For *</label>
           <select id="appRole" name="role" required>
             <option value="">Select a role...</option>
-            <option>Registered Nurse (RN)</option>
-            <option>Licensed Practical Nurse (LPN)</option>
-            <option>Physical Therapist (PT)</option>
-            <option>Occupational Therapist (OT)</option>
             <option>Personal Care Aide (PCA)</option>
             <option>Certified Nursing Assistant (CNA)</option>
             <option>Home Health Aide (HHA)</option>
+            <option>Community Liaison</option>
           </select>
         </div>
 
