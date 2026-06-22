@@ -125,12 +125,12 @@ export default function CareersPage() {
             <div className="open-role-header">
               <div className="open-role-title">
                 <div className="open-role-icon">🤝</div>
-                <h3>Community Liaison</h3>
+                <h3>Community Liaison &mdash; Healthcare Sales / Discharge Planning</h3>
               </div>
               <span className="open-role-badge">Hiring Now</span>
             </div>
             <p style={{ marginBottom: "20px" }}>
-              Build and maintain referral relationships with hospital discharge planners, social workers, SNFs, ALFs, and physician offices across Hampton Roads. This is a commission-based role built for someone with healthcare connections who wants to grow a territory on their own terms — no office hours, no micromanagement.
+              Build and maintain referral relationships with hospital discharge planners, social workers, skilled nursing facilities, assisted living facilities, and physician offices across Hampton Roads &mdash; including Sentara and Bon Secours systems. This is a commission-based role built for someone with healthcare connections who wants to grow a territory on their own terms — no office hours, no micromanagement.
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "12px", marginBottom: "16px" }}>
               {[
