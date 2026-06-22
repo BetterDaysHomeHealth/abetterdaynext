@@ -134,6 +134,7 @@ export default function CareersPage() {
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "12px", marginBottom: "16px" }}>
               {[
+                { label: "$500/mo", sub: "ramp stipend — first 90 days" },
                 { label: "$200", sub: "per admitted case" },
                 { label: "$100", sub: "bonus at 90 days active" },
                 { label: "$50/mo", sub: "per case beyond 90 days" },
