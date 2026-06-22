@@ -106,7 +106,6 @@ export default function CareersPage() {
               { icon: "🧑", title: "Personal Care Aide (PCA)", desc: "Provide compassionate personal care and daily living assistance to patients in their homes throughout Hampton Roads. Duties include bathing, grooming, dressing, meal preparation, companionship, medication reminders, and light housekeeping. PCA training required.", delay: 1 },
               { icon: "👨‍⚕️", title: "Certified Nursing Assistant (CNA)", desc: "Provide personal care, basic health observations, and daily living support for patients in their homes. CNAs assist with bathing, grooming, vital signs monitoring, and patient comfort. Active Virginia CNA certification required.", delay: 2 },
               { icon: "🏠", title: "Home Health Aide (HHA)", desc: "Assist patients with personal care, light housekeeping, and daily living activities as part of a coordinated home care plan. HHA certification or equivalent training required.", delay: 3 },
-              { icon: "🤝", title: "Community Liaison", desc: "Build and maintain referral relationships with hospital discharge planners, social workers, assisted living facilities, and physician offices across Hampton Roads. Commission-based — $200 per admitted case plus a monthly retainer once you hit volume. Ideal for someone with existing healthcare relationships.", delay: 1 },
             ].map((role) => (
               <div key={role.title} className={`open-role-card reveal reveal-delay-${role.delay}`}>
                 <div className="open-role-header">
@@ -119,6 +118,36 @@ export default function CareersPage() {
                 <p>{role.desc}</p>
               </div>
             ))}
+          </div>
+
+          {/* Community Liaison — full-width featured card */}
+          <div className="open-role-card reveal" style={{ marginTop: "24px", borderColor: "var(--gold)", borderWidth: "2px" }}>
+            <div className="open-role-header">
+              <div className="open-role-title">
+                <div className="open-role-icon">🤝</div>
+                <h3>Community Liaison</h3>
+              </div>
+              <span className="open-role-badge">Hiring Now</span>
+            </div>
+            <p style={{ marginBottom: "20px" }}>
+              Build and maintain referral relationships with hospital discharge planners, social workers, SNFs, ALFs, and physician offices across Hampton Roads. This is a commission-based role built for someone with healthcare connections who wants to grow a territory on their own terms — no office hours, no micromanagement.
+            </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "12px", marginBottom: "16px" }}>
+              {[
+                { label: "$200", sub: "per admitted case" },
+                { label: "$100", sub: "bonus at 90 days active" },
+                { label: "$50/mo", sub: "per case beyond 90 days" },
+                { label: "$600/mo", sub: "retainer at 5+ admits/month" },
+              ].map((item) => (
+                <div key={item.label} style={{ background: "var(--cream-dark)", borderRadius: "10px", padding: "14px 16px", textAlign: "center" }}>
+                  <p style={{ fontSize: "1.4rem", fontWeight: 700, color: "var(--navy)", lineHeight: 1 }}>{item.label}</p>
+                  <p style={{ fontSize: "0.78rem", color: "var(--muted)", marginTop: "4px" }}>{item.sub}</p>
+                </div>
+              ))}
+            </div>
+            <p style={{ fontSize: "0.85rem", color: "var(--muted)" }}>
+              Ideal background: home health, social work, discharge planning, or medical sales. Existing Hampton Roads healthcare relationships preferred but not required. Reliable transportation required.
+            </p>
           </div>
         </div>
       </section>
