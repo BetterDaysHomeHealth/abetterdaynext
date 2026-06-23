@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Community Liaison Commission Agreement — Better Days Home Health</title>
+  <title>Community Liaison Commission Agreement — Better Days Home Health, LLC</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -12,85 +12,177 @@
       font-size: 11pt;
       color: #1a1a1a;
       background: #fff;
-      padding: 0;
     }
 
     .page {
-      max-width: 750px;
+      max-width: 760px;
       margin: 0 auto;
-      padding: 72px 80px;
+      padding: 64px 80px 80px;
     }
 
+    /* ── Header ── */
     .header {
-      text-align: center;
-      margin-bottom: 36px;
-      padding-bottom: 24px;
-      border-bottom: 2px solid #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #1a3a5c;
     }
 
-    .logo-placeholder {
-      font-size: 13pt;
-      font-weight: bold;
-      letter-spacing: 0.05em;
-      color: #1a4a7a;
-      margin-bottom: 20px;
-      text-transform: uppercase;
+    .header-logo {
+      height: 64px;
+      width: auto;
+    }
+
+    .header-info {
+      text-align: right;
+      font-size: 9pt;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .header-info strong {
+      display: block;
+      font-size: 10.5pt;
+      color: #1a3a5c;
+      margin-bottom: 2px;
+    }
+
+    /* ── Document title ── */
+    .doc-title-block {
+      text-align: center;
+      margin: 28px 0 32px;
     }
 
     .doc-title {
-      font-size: 15pt;
+      font-size: 14pt;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 4px;
+      letter-spacing: 0.1em;
+      color: #1a3a5c;
+      margin-bottom: 6px;
     }
 
-    .doc-subtitle {
-      font-size: 11pt;
-      color: #444;
+    .doc-type {
+      font-size: 10pt;
+      color: #666;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
     }
 
+    /* ── Intro ── */
     .intro {
+      background: #f4f7fb;
+      border-left: 4px solid #1a3a5c;
+      padding: 16px 20px;
       margin-bottom: 28px;
-      line-height: 1.7;
+      line-height: 1.75;
+      font-size: 10.5pt;
     }
 
+    .fill-blank {
+      display: inline-block;
+      border-bottom: 1.5px solid #1a1a1a;
+      min-width: 180px;
+      height: 16px;
+      vertical-align: bottom;
+    }
+
+    .fill-blank-sm {
+      display: inline-block;
+      border-bottom: 1.5px solid #1a1a1a;
+      min-width: 100px;
+      height: 16px;
+      vertical-align: bottom;
+    }
+
+    /* ── Sections ── */
     .section {
-      margin-bottom: 24px;
+      margin-bottom: 22px;
     }
 
     .section-title {
-      font-size: 11pt;
+      font-size: 10.5pt;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 10px;
-      padding-bottom: 4px;
-      border-bottom: 1px solid #ccc;
+      letter-spacing: 0.06em;
+      color: #1a3a5c;
+      background: #eef2f8;
+      padding: 6px 10px;
+      margin-bottom: 12px;
     }
 
     .section p {
-      line-height: 1.7;
+      line-height: 1.75;
       margin-bottom: 10px;
+      font-size: 10.5pt;
     }
 
     .section ul {
-      padding-left: 20px;
+      padding-left: 22px;
       margin-bottom: 10px;
     }
 
     .section ul li {
-      line-height: 1.7;
-      margin-bottom: 4px;
+      line-height: 1.75;
+      margin-bottom: 5px;
+      font-size: 10.5pt;
     }
 
+    /* ── Subsections ── */
     .subsection {
       margin-bottom: 14px;
+      padding-left: 12px;
+      border-left: 2px solid #dde4ee;
     }
 
     .subsection-title {
       font-weight: bold;
-      margin-bottom: 4px;
+      font-size: 10.5pt;
+      margin-bottom: 5px;
+      color: #1a1a1a;
+    }
+
+    /* ── Compensation table ── */
+    .comp-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+      font-size: 10.5pt;
+    }
+
+    .comp-table th {
+      background: #1a3a5c;
+      color: #fff;
+      padding: 8px 12px;
+      text-align: left;
+      font-size: 10pt;
+      font-weight: bold;
+      letter-spacing: 0.03em;
+    }
+
+    .comp-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #e0e6ef;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+
+    .comp-table tr:nth-child(even) td {
+      background: #f7f9fc;
+    }
+
+    .comp-table td:first-child {
+      font-weight: bold;
+      white-space: nowrap;
+      color: #1a3a5c;
+      width: 160px;
+    }
+
+    /* ── Checkboxes ── */
+    .checkbox-group {
+      margin: 10px 0 10px 12px;
     }
 
     .checkbox-item {
@@ -98,105 +190,141 @@
       align-items: center;
       gap: 10px;
       margin-bottom: 8px;
+      font-size: 10.5pt;
       line-height: 1.5;
     }
 
     .checkbox {
-      width: 14px;
-      height: 14px;
+      width: 13px;
+      height: 13px;
       border: 1.5px solid #1a1a1a;
       display: inline-block;
       flex-shrink: 0;
     }
 
-    .signature-block {
-      margin-top: 48px;
-      page-break-inside: avoid;
-    }
-
-    .signature-section {
-      margin-bottom: 48px;
-    }
-
-    .signature-name {
-      font-weight: bold;
-      margin-bottom: 24px;
-      font-size: 11pt;
-    }
-
-    .signature-line {
-      display: flex;
-      align-items: flex-end;
-      gap: 12px;
-      margin-bottom: 14px;
-    }
-
-    .sig-label {
-      min-width: 90px;
-      font-size: 10pt;
-      color: #444;
-      padding-bottom: 2px;
-    }
-
-    .sig-field {
-      flex: 1;
-      border-bottom: 1px solid #1a1a1a;
-      height: 24px;
-    }
-
+    /* ── Divider ── */
     .divider {
       border: none;
       border-top: 1px solid #ccc;
       margin: 28px 0;
     }
 
+    /* ── Signature block ── */
+    .signature-block {
+      margin-top: 36px;
+      page-break-inside: avoid;
+    }
+
+    .sig-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-top: 24px;
+    }
+
+    .sig-party {
+      border-top: 2px solid #1a3a5c;
+      padding-top: 14px;
+    }
+
+    .sig-party-name {
+      font-weight: bold;
+      font-size: 10.5pt;
+      color: #1a3a5c;
+      margin-bottom: 20px;
+    }
+
+    .sig-line {
+      margin-bottom: 16px;
+    }
+
+    .sig-label {
+      font-size: 9pt;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+
+    .sig-field {
+      border-bottom: 1px solid #1a1a1a;
+      height: 22px;
+      width: 100%;
+    }
+
+    /* ── Footer ── */
+    .doc-footer {
+      margin-top: 48px;
+      padding-top: 12px;
+      border-top: 1px solid #ccc;
+      text-align: center;
+      font-size: 8.5pt;
+      color: #888;
+      line-height: 1.6;
+    }
+
+    /* ── Print ── */
     @media print {
-      body { padding: 0; }
-      .page { padding: 54px 64px; max-width: 100%; }
+      body { background: #fff; }
+      .page { padding: 48px 64px; max-width: 100%; }
     }
   </style>
 </head>
 <body>
   <div class="page">
 
-    <!-- Header -->
+    <!-- Header with logo -->
     <div class="header">
-      <div class="logo-placeholder">Better Days Home Health</div>
+      <img src="../public/logo.jpg" alt="Better Days Home Health" class="header-logo" />
+      <div class="header-info">
+        <strong>Better Days Home Health, LLC</strong>
+        Hampton Roads, Virginia<br />
+        (757) 715-7829<br />
+        admin@abetterdayforyou.com<br />
+        abetterdayforyou.com
+      </div>
+    </div>
+
+    <!-- Document title -->
+    <div class="doc-title-block">
       <div class="doc-title">Community Liaison Commission Agreement</div>
-      <div class="doc-subtitle">Independent Contractor Agreement</div>
+      <div class="doc-type">Independent Contractor Agreement</div>
     </div>
 
     <!-- Intro -->
-    <p class="intro">
+    <div class="intro">
       This Community Liaison Commission Agreement ("Agreement") is entered into as of
-      <strong>________________, 2026</strong>, between <strong>Better Days Home Health, LLC</strong>,
-      a Virginia limited liability company located in Hampton Roads,
-      Virginia ("Company"), and <strong>________________________________</strong>, an independent
-      contractor residing at <strong>________________________________</strong> ("Liaison").
-    </p>
-
-    <hr class="divider" />
+      <span class="fill-blank-sm"></span>, 2026, between
+      <strong>Better Days Home Health, LLC</strong>, a Virginia limited liability company
+      located in Hampton Roads, Virginia ("Company"), and
+      <span class="fill-blank"></span>,
+      an independent contractor residing at
+      <span class="fill-blank"></span>
+      ("Liaison").
+    </div>
 
     <!-- Section 1 -->
     <div class="section">
       <div class="section-title">1. Relationship of the Parties</div>
       <p>
         Liaison is engaged as an independent contractor and not as an employee of the Company.
-        Liaison is responsible for all federal, state, and local taxes on compensation received
-        under this Agreement. The Company will not withhold taxes, provide benefits, or offer
-        workers' compensation coverage. Liaison will receive a Form 1099 at year end.
+        Liaison is solely responsible for all federal, state, and local taxes on compensation
+        received under this Agreement. The Company will not withhold taxes, provide employee
+        benefits, or offer workers' compensation coverage. Liaison will receive a Form 1099-NEC
+        at year end for all compensation paid.
       </p>
     </div>
 
     <!-- Section 2 -->
     <div class="section">
       <div class="section-title">2. Scope of Work</div>
-      <p>Liaison agrees to:</p>
+      <p>Liaison agrees to perform the following services on behalf of the Company:</p>
       <ul>
-        <li>Build and maintain referral relationships with hospital discharge planners, social workers, skilled nursing facilities, assisted living facilities, and physician offices in the assigned territory</li>
-        <li>Submit all referrals through the Company's referral tracking system</li>
-        <li>Log all outreach activity weekly in the tracking system</li>
-        <li>Represent Better Days Home Health in a professional manner at all times</li>
+        <li>Build and maintain referral relationships with hospital discharge planners, social workers, skilled nursing facilities, assisted living facilities, and physician offices within the assigned territory</li>
+        <li>Submit all patient referrals through the Company's designated referral tracking system</li>
+        <li>Log all outreach and business development activity weekly in the tracking system</li>
+        <li>Represent Better Days Home Health, LLC in a professional and ethical manner at all times</li>
+        <li>Comply with all applicable HIPAA regulations in the handling of patient information</li>
       </ul>
     </div>
 
@@ -204,115 +332,204 @@
     <div class="section">
       <div class="section-title">3. Territory</div>
       <p>Liaison's primary territory is (select one at signing):</p>
-      <div class="checkbox-item"><span class="checkbox"></span> Virginia Beach / Chesapeake</div>
-      <div class="checkbox-item"><span class="checkbox"></span> Norfolk / Portsmouth</div>
-      <div class="checkbox-item"><span class="checkbox"></span> Hampton / Newport News</div>
-      <p style="margin-top:10px;">The Company reserves the right to assign additional or overlapping territories at its discretion.</p>
+      <div class="checkbox-group">
+        <div class="checkbox-item"><span class="checkbox"></span> Virginia Beach / Chesapeake</div>
+        <div class="checkbox-item"><span class="checkbox"></span> Norfolk / Portsmouth</div>
+        <div class="checkbox-item"><span class="checkbox"></span> Hampton / Newport News</div>
+      </div>
+      <p>The Company reserves the right to assign additional or overlapping territories at its discretion with reasonable notice to Liaison.</p>
     </div>
 
     <!-- Section 4 -->
     <div class="section">
       <div class="section-title">4. Compensation</div>
 
+      <table class="comp-table">
+        <tr>
+          <th>Component</th>
+          <th>Amount</th>
+          <th>Condition</th>
+        </tr>
+        <tr>
+          <td>Ramp Stipend</td>
+          <td>$500 / month</td>
+          <td>First 90 days only. Contingent on good-faith activity. See Section 4a.</td>
+        </tr>
+        <tr>
+          <td>Admission Commission</td>
+          <td>$200 / case</td>
+          <td>Paid when patient is admitted and services begin.</td>
+        </tr>
+        <tr>
+          <td>90-Day Bonus</td>
+          <td>$100 / case</td>
+          <td>One-time bonus per case still active at 90 days.</td>
+        </tr>
+        <tr>
+          <td>Monthly Continuation</td>
+          <td>$50 / case / month</td>
+          <td>Paid monthly for each active case beyond 90 days.</td>
+        </tr>
+        <tr>
+          <td>Monthly Retainer</td>
+          <td>$600 / month</td>
+          <td>Earned in any month with 5 or more admitted cases.</td>
+        </tr>
+      </table>
+
       <div class="subsection">
-        <div class="subsection-title">4a. Ramp Stipend</div>
-        <p>The Company will pay Liaison <strong>$500 per month for the first 90 days</strong> of this Agreement to cover gas and business development expenses. This stipend ends automatically at day 90. No repayment is required.</p>
-        <p>The stipend is contingent on Liaison making a good-faith effort to build referral relationships, including regular outreach activity logged in the Company's tracking system. If Liaison demonstrates no meaningful activity or performance during the ramp period, the Company reserves the right to terminate this Agreement immediately and cease the stipend without further obligation.</p>
+        <div class="subsection-title">4a. Ramp Stipend — Performance Requirement</div>
+        <p>
+          The $500 monthly ramp stipend is contingent on Liaison making a good-faith effort to
+          build referral relationships, including regular outreach activity logged in the Company's
+          tracking system. If Liaison demonstrates no meaningful activity or performance during
+          the ramp period, the Company reserves the right to terminate this Agreement immediately
+          and cease the stipend without further obligation. No repayment of stipend already paid
+          is required.
+        </p>
       </div>
 
       <div class="subsection">
-        <div class="subsection-title">4b. Admission Commission</div>
-        <p>The Company will pay Liaison <strong>$200 per admitted case</strong> originating from a referral submitted by Liaison. A case is considered admitted when a patient is accepted, scheduled, and services begin.</p>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">4c. 90-Day Retention Bonus</div>
-        <p>The Company will pay Liaison a one-time <strong>$100 bonus per case</strong> that remains active and receiving services at 90 days from the admission date.</p>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">4d. Monthly Continuation Payment</div>
-        <p>The Company will pay Liaison <strong>$50 per month for each active case</strong> that has been receiving services for more than 90 days, for as long as the case remains open.</p>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">4e. Monthly Retainer</div>
-        <p>In any calendar month where Liaison generates <strong>5 or more admitted cases</strong>, the Company will pay an additional <strong>$600 retainer</strong> for that month. Volume must be maintained each month for the retainer to apply.</p>
+        <div class="subsection-title">4b. No Cap on Earnings</div>
+        <p>There is no maximum limit on commissions, bonuses, continuation payments, or retainers earned under this Agreement.</p>
       </div>
     </div>
 
     <!-- Section 5 -->
     <div class="section">
       <div class="section-title">5. Payment Schedule</div>
-      <p>All compensation is calculated at the end of each calendar month and paid within 15 days of month end via:</p>
-      <div class="checkbox-item" style="margin-top:10px;"><span class="checkbox"></span> Check</div>
-      <div class="checkbox-item"><span class="checkbox"></span> Direct deposit</div>
+      <p>
+        All compensation is calculated at the end of each calendar month and paid within
+        <strong>15 days of month end</strong> via:
+      </p>
+      <div class="checkbox-group">
+        <div class="checkbox-item"><span class="checkbox"></span> Check mailed to Liaison's address on file</div>
+        <div class="checkbox-item"><span class="checkbox"></span> Direct deposit — banking information provided at signing</div>
+      </div>
     </div>
 
     <!-- Section 6 -->
     <div class="section">
       <div class="section-title">6. Term and Termination</div>
-      <p>This Agreement begins on the date signed and continues month to month. Either party may terminate with <strong>14 days written notice</strong>. Upon termination, the ramp stipend stops immediately. Commissions already earned are paid at the next payment date. Continuation payments on active cases continue for up to 90 days post-termination.</p>
+      <p>
+        This Agreement begins on the date signed below and continues on a month-to-month basis
+        until terminated. Either party may terminate this Agreement with <strong>14 days written notice</strong>.
+        The Company reserves the right to terminate immediately and without notice if Liaison
+        engages in misconduct, misrepresentation, HIPAA violations, or fails to demonstrate
+        any meaningful performance during the ramp period.
+      </p>
+      <p>
+        Upon termination: the ramp stipend ceases immediately; commissions already earned on
+        admitted cases are paid at the next scheduled payment date; 90-day bonuses and monthly
+        continuation payments on active cases continue to be paid for up to <strong>90 days
+        post-termination</strong> as long as those cases remain open.
+      </p>
     </div>
 
     <!-- Section 7 -->
     <div class="section">
       <div class="section-title">7. Confidentiality</div>
-      <p>Liaison agrees to keep confidential all patient information, referral source relationships, pricing, and internal business information of the Company. This obligation survives termination. All patient information is governed by HIPAA and applicable Virginia law.</p>
+      <p>
+        Liaison agrees to hold in strict confidence all patient information, referral source
+        relationships, business processes, pricing, and proprietary information of the Company,
+        both during and after the term of this Agreement. Liaison shall not disclose any such
+        information to any third party without the prior written consent of the Company.
+        All patient information is governed by the Health Insurance Portability and
+        Accountability Act (HIPAA) and applicable Virginia law. This obligation survives
+        termination of this Agreement indefinitely.
+      </p>
     </div>
 
     <!-- Section 8 -->
     <div class="section">
       <div class="section-title">8. Non-Solicitation</div>
-      <p>For <strong>12 months</strong> following termination, Liaison agrees not to solicit the Company's referral sources, employees, or active patients on behalf of a competing home health agency operating in Hampton Roads.</p>
+      <p>
+        For a period of <strong>12 months</strong> following the termination of this Agreement,
+        Liaison agrees not to directly or indirectly solicit, contact, or accept referrals from
+        the Company's referral sources, recruit the Company's employees, or solicit the Company's
+        active patients, on behalf of any competing home health agency operating in Hampton Roads,
+        Virginia.
+      </p>
     </div>
 
     <!-- Section 9 -->
     <div class="section">
-      <div class="section-title">9. Entire Agreement</div>
-      <p>This Agreement constitutes the entire agreement between the parties and supersedes all prior discussions. Any modifications must be in writing and signed by both parties.</p>
+      <div class="section-title">9. Governing Law</div>
+      <p>
+        This Agreement shall be governed by and construed in accordance with the laws of the
+        Commonwealth of Virginia. Any disputes arising under this Agreement shall be resolved
+        in the courts of Hampton Roads, Virginia.
+      </p>
+    </div>
+
+    <!-- Section 10 -->
+    <div class="section">
+      <div class="section-title">10. Entire Agreement</div>
+      <p>
+        This Agreement constitutes the entire agreement between the parties with respect to
+        the subject matter herein and supersedes all prior discussions, representations, and
+        agreements. Any modification to this Agreement must be made in writing and signed
+        by both parties to be effective.
+      </p>
     </div>
 
     <hr class="divider" />
 
     <!-- Signatures -->
     <div class="signature-block">
-      <div class="section-title" style="margin-bottom:28px;">Signatures</div>
+      <div class="section-title">Signatures</div>
+      <p style="font-size:10pt; color:#555; margin-top:10px;">
+        By signing below, both parties agree to the terms and conditions set forth in this Agreement.
+      </p>
 
-      <div class="signature-section">
-        <div class="signature-name">Better Days Home Health / Better Days Home Health, LLC</div>
-        <div class="signature-line">
-          <span class="sig-label">Signature</span>
-          <span class="sig-field"></span>
+      <div class="sig-columns">
+        <div class="sig-party">
+          <div class="sig-party-name">Better Days Home Health, LLC</div>
+          <div class="sig-line">
+            <div class="sig-label">Signature</div>
+            <div class="sig-field"></div>
+          </div>
+          <div class="sig-line">
+            <div class="sig-label">Printed Name</div>
+            <div class="sig-field"></div>
+          </div>
+          <div class="sig-line">
+            <div class="sig-label">Title</div>
+            <div class="sig-field" style="background: #f4f7fb; padding: 2px 6px; font-size:10pt; height:auto;">Owner</div>
+          </div>
+          <div class="sig-line">
+            <div class="sig-label">Date</div>
+            <div class="sig-field"></div>
+          </div>
         </div>
-        <div class="signature-line">
-          <span class="sig-label">Name</span>
-          <span class="sig-field" style="flex:none; width:240px;"></span>
-          &nbsp;&nbsp;
-          <span class="sig-label" style="min-width:40px;">Title</span>
-          <span class="sig-field">Owner</span>
-        </div>
-        <div class="signature-line">
-          <span class="sig-label">Date</span>
-          <span class="sig-field" style="flex:none; width:180px;"></span>
+
+        <div class="sig-party">
+          <div class="sig-party-name">Community Liaison (Independent Contractor)</div>
+          <div class="sig-line">
+            <div class="sig-label">Signature</div>
+            <div class="sig-field"></div>
+          </div>
+          <div class="sig-line">
+            <div class="sig-label">Printed Name</div>
+            <div class="sig-field"></div>
+          </div>
+          <div class="sig-line">
+            <div class="sig-label">Territory Selected</div>
+            <div class="sig-field"></div>
+          </div>
+          <div class="sig-line">
+            <div class="sig-label">Date</div>
+            <div class="sig-field"></div>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="signature-section">
-        <div class="signature-name">Community Liaison</div>
-        <div class="signature-line">
-          <span class="sig-label">Signature</span>
-          <span class="sig-field"></span>
-        </div>
-        <div class="signature-line">
-          <span class="sig-label">Name</span>
-          <span class="sig-field"></span>
-        </div>
-        <div class="signature-line">
-          <span class="sig-label">Date</span>
-          <span class="sig-field" style="flex:none; width:180px;"></span>
-        </div>
-      </div>
+    <!-- Footer -->
+    <div class="doc-footer">
+      Better Days Home Health, LLC &nbsp;|&nbsp; Hampton Roads, Virginia &nbsp;|&nbsp;
+      (757) 715-7829 &nbsp;|&nbsp; admin@abetterdayforyou.com &nbsp;|&nbsp; abetterdayforyou.com<br />
+      This document is confidential and intended solely for the named parties.
     </div>
 
   </div>
